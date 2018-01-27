@@ -21,7 +21,7 @@ public class EnemyHealth : MonoBehaviour {
 	// If this enemy collides with a bullet, deal damage to this enemy and remove the bullet
 	void OnCollisionEnter (Collision collision) {
 		if (collision.gameObject.CompareTag ("Bullet")) {
-			//TakeDamage (Bullet.dealDamage ());
+//			TakeDamage (Bullet.dealDamage ()); TODO 
 			collision.gameObject.SetActive (false);
 		}
 	}
