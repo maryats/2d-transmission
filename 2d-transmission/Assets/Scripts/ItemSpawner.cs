@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class ItemSpawner : MonoBehaviour {
 
-	public GameObject ItemToSpawn;
+	public GameObject HealthUp;
+	public GameObject AttackUp;
 	public int spawnRate;
 
 	private Vector2 location;
@@ -37,14 +38,25 @@ public class ItemSpawner : MonoBehaviour {
 
 	// Reset the timer if the item is still active
 	void OnCollisionEnter(Collision collision) {
-		if (collision.transform.CompareTag(ItemToSpawn.transform.tag) {
+		if (collision.transform.CompareTag("HealthUp") || collision.transform.CompareTag("AttackUp")) {
 			timeTilNextSpawn = spawnRate;
 		}
 	}
 
 	// This actually spawns the item
 	void SpawnItem() {
+		// Create a random powerup
+		GameObject ItemToSpawn;
+
+		if (Random.Range(0, 2) == 1) {
+			ItemToSpawn = HealthUp;
+		}
+
+		else {
+			ItemToSpawn = AttackUp;
+		}
+
+		// Spawn that sucker
 		Instantiate (ItemToSpawn, location);
 	}
-
 }
