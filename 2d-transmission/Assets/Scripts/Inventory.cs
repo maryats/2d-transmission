@@ -1,64 +1,65 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
-public class Inventory : MonoBehaviour
-{
-    public Image[] itemImages = new Image[numItemSlots];
-    public Item[] items = new Item[numItemSlots];
-    public int currentItem; 
-    public const int numItemSlots = 10;
-    public void AddItem(Item itemToAdd)
+public class Inventory : MonoBehaviour {
+	
+	public const int numItemSlots = 10;
+	SpriteRenderer[] itemSprites = new SpriteRenderer[numItemSlots];
+	public GameObject[] items = new GameObject[numItemSlots];
+    private int currentItemIndex = 0;
+
+	// Add an item to the player's inventory if it is not full
+	public void AddItem(GameObject itemToAdd)
     {
         for (int i = 0; i < items.Length; i++)
         {
             if (items[i] == null)
             {
-                items[i] = itemToAdd;
-                itemImages[i].sprite = itemToAdd.sprite;
-                itemImages[i].enabled = true;
-                return;
-            }
-        }
-    }
-    public void RemoveItem(Item itemToRemove)
-    {
-        for (int i = 0; i < items.Length; i++)
-        {
-            if (items[i] == itemToRemove)
-            {
-                items[i] = null;
-                itemImages[i].sprite = null;
-                itemImages[i].enabled = false;
+                items[i]= itemToAdd;
+				itemSprites[i] = itemToAdd.GetComponent<SpriteRenderer> ();
+				itemSprites[i].enabled = true;
                 return;
             }
         }
     }
 
-    public void TransferItem(Item itemToTransfer)
+	// Remove the item that the player currently selected
+	public void RemoveCurrentItem()
     {
-       if (player1.input == transferButton)
-        {
-            player1.removeItem(itemToTransfer);
-            player2.addItem(itemToTransfer);
-        }
+		Destroy (items [currentItemIndex].gameObject);
+		items [currentItemIndex] = null;
     }
+		
 
     // cycles through inventory, probably moving this to player controller
     public void toggleItems()   
     {
-        if (player.input == leftTrigger)
+		if (Input.GetKeyDown(KeyCode.Q))
         {
-            currentItem--;
+            currentItemIndex--;
+
         }
-        if (player.input == rightTrigger)
+		if (Input.GetKeyDown(KeyCode.E))
         {
-            currentItem++;
+            currentItemIndex++;
         }
-        if (currentItem > items.Length-1)
+		if (currentItemIndex < 0)
+		{
+			currentItemIndex = numItemSlots-1;
+		}
+        if (currentItemIndex > items.Length-1)
         {
-            currentItem = 0;
+            currentItemIndex = 0;
         }
-        if (currentItem < 0)
-        {
-            currentItem = items.Length-1;
-        }
+
     }
+
+	public bool isFull() {
+		int counter = 0;
+		for (int i = 0; i < numItemSlots; i++) {
+			if (items [i] != null) {
+				counter++;
+			}
+		}
+		return counter == numItemSlots;
+	}
+}
