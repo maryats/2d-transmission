@@ -13,11 +13,15 @@ public class PlayerHealth : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+		// Player starts at full health
+		currentHealth = maxHealth;
+
+		// Update health slider to reflect Player stats
+		healthSlider.maxValue = maxHealth;
+		healthSlider.value = currentHealth;
 	}
 
 	public void Heal (int amount) {
-
 		if ((currentHealth + amount) <= maxHealth) {
 			currentHealth += amount;
 		}
@@ -30,16 +34,19 @@ public class PlayerHealth : MonoBehaviour {
 		healthSlider.value = currentHealth;
 
 		if (currentHealth <= 0) {
+			healthSlider.value = 0;
 			Die ();
 		}
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
+		if (Input.GetKeyDown ("space")) {
+			TakeDamage (5);
+		}
 	}
 
 	void Die () {
-		playerMovement.enabled = false;
+		print ("YOU DIED LOSER");
 	}
 }
