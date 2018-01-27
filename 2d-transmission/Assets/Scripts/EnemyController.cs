@@ -8,9 +8,25 @@ public class EnemyController : MonoBehaviour {
 
     public bool runForwards = true;
 
+    private SpriteRenderer mySpriteRenderer;
+
+    private void Start()
+    {
+        mySpriteRenderer = GetComponent<SpriteRenderer>();
+    }
+
     void Update()
     {
         UpdatePosition();
+
+        if (runForwards)
+        {
+            mySpriteRenderer.flipX = true;
+        }
+        else
+        {
+            mySpriteRenderer.flipX = false;
+        }
     }
 
     void UpdatePosition()
@@ -44,6 +60,7 @@ public class EnemyController : MonoBehaviour {
         else if (collider.tag == "Left Edge")
         {
             runForwards = true;
+
 
             // Or
             // JumpForwards()
