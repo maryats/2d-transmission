@@ -1,7 +1,11 @@
 fileFormatVersion: 2
 guid: 1c37d7fcb4cbd3d4eaba38bf5c9045e2
 folderAsset: yes
+<<<<<<< HEAD
 timeCreated: 1517081199
+=======
+timeCreated: 1517079689
+>>>>>>> willbridges
 licenseType: Free
 DefaultImporter:
   externalObjects: {}

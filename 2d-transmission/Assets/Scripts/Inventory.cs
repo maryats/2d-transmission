@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+﻿/*using UnityEngine;
 using UnityEngine.UI;
 public class Inventory : MonoBehaviour
 {
@@ -45,7 +45,7 @@ public class Inventory : MonoBehaviour
     // cycles through inventory, probably moving this to player controller
     public void toggleItems()
     {
-        if (player.input == leftTrigger)
+        if (player.input == leftTrigger)        
         {
             currentItem--;
         }
@@ -61,5 +61,9 @@ public class Inventory : MonoBehaviour
         {
             currentItem = items.Length - 1;
         }
+<<<<<<< HEAD
     }
 }
+=======
+    }*/
+>>>>>>> willbridges
