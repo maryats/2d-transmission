@@ -13,6 +13,8 @@ public class EnemyController : MonoBehaviour {
     private void Start()
     {
         mySpriteRenderer = GetComponent<SpriteRenderer>();
+
+        gameObject.SetActive(false);
     }
 
     void Update()
@@ -52,7 +54,7 @@ public class EnemyController : MonoBehaviour {
         if (collider.tag == "Right Edge")
         {
             runForwards = false;
-            Debug.Log("Triggered");
+            //Debug.Log("Triggered");
 
             // Or
             // JumpBackwards()
