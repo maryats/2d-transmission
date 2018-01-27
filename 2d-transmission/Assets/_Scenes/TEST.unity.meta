@@ -1,8 +1,12 @@
 fileFormatVersion: 2
-
+<<<<<<< HEAD:2d-transmission/Assets/_Scenes/Tommy's Scene.unity.meta
+guid: 3d40171fb5ec23946a9404d28fa38094
+timeCreated: 1517064222
+=======
 guid: 570e1d804eb5347f6b1a3f16fe6ec660
 folderAsset: yes
 timeCreated: 1517071438
+>>>>>>> master:2d-transmission/Assets/Prefabs.meta
 licenseType: Free
 DefaultImporter:
   externalObjects: {}

@@ -97,14 +97,13 @@ public class Player : MonoBehaviour
         }
     }
 
-    void IsGrounded()
+    public void Pickup()
     {
-        if (rb.velocity.y <= 0)
-        {
-            foreach(Transform point in groundPoints)
-            {
 
-            }
-        }
+    }
+
+    public void Transmit()
+    {
+
     }
 }

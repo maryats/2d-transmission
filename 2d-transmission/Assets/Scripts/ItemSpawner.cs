@@ -57,6 +57,6 @@ public class ItemSpawner : MonoBehaviour {
 		}
 
 		// Spawn that sucker
-		Instantiate (ItemToSpawn, location);
+		Instantiate (ItemToSpawn, location, Quaternion.identity);
 	}
 }

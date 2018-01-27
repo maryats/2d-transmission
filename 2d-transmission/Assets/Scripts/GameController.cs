@@ -6,12 +6,14 @@ using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
-    public PlayerHealth playerHealth;
+    public PlayerHealth hunterHealth;
+    public PlayerHealth gathererHealth;
     public Text loseMessage;
 
     private void Update()
     {
-        if (playerHealth.currentHealth <= 0)
+        if (hunterHealth.currentHealth <= 0
+            || gathererHealth.currentHealth <= 0)
         {
             loseMessage.gameObject.SetActive(true);
         }
