@@ -45,7 +45,7 @@ public class Inventory : MonoBehaviour
     // cycles through inventory, probably moving this to player controller
     public void toggleItems()   
     {
-        if (player.input == leftTrigger)
+        if (player.input == leftTrigger)        
         {
             currentItem--;
         }
