@@ -9,7 +9,11 @@ public class PlayerHealth : MonoBehaviour {
 	public int currentHealth;
 	public int maxHealth = 100;
 	public Slider healthSlider;
+	public PlayerHealth otherPlayerHealth;
 
+	void Die () {
+		print ("YOU DIED");
+	}
 
 	// Use this for initialization
 	void Start () {
@@ -27,10 +31,16 @@ public class PlayerHealth : MonoBehaviour {
 		}
 	}
 
+	public bool IsDead () {
+		return currentHealth <= 0;
+	}
+
+	public void SendHealth (int amount) {
+		otherPlayerHealth.Heal (amount);
+	}
+
 	public void TakeDamage (int amount) {
-
 		currentHealth -= amount;
-
 		healthSlider.value = currentHealth;
 
 		if (currentHealth <= 0) {
@@ -41,12 +51,6 @@ public class PlayerHealth : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKeyDown ("space")) {
-			TakeDamage (5);
-		}
-	}
-
-	void Die () {
-		print ("YOU DIED LOSER");
+		
 	}
 }
