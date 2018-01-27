@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+
 public class Inventory : MonoBehaviour {
 	
 	public const int numItemSlots = 10;
@@ -27,6 +28,7 @@ public class Inventory : MonoBehaviour {
     {
 		Destroy (items [currentItemIndex].gameObject);
 		items [currentItemIndex] = null;
+
     }
 		
 
@@ -38,6 +40,7 @@ public class Inventory : MonoBehaviour {
             currentItemIndex--;
 
         }
+
 		if (Input.GetKeyDown(KeyCode.E))
         {
             currentItemIndex++;
@@ -48,6 +51,13 @@ public class Inventory : MonoBehaviour {
 		}
         if (currentItemIndex > items.Length-1)
         {
+
+    }
+}
+
+    }*/
+
+
             currentItemIndex = 0;
         }
 
@@ -63,3 +73,4 @@ public class Inventory : MonoBehaviour {
 		return counter == numItemSlots;
 	}
 }
+
