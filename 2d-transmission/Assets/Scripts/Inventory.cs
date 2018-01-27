@@ -31,7 +31,7 @@ public class Inventory : MonoBehaviour {
 		
 
     // cycles through inventory, probably moving this to player controller
-    public void toggleItems()   
+    public void toggleItems()
     {
 		if (Input.GetKeyDown(KeyCode.Q))
         {
