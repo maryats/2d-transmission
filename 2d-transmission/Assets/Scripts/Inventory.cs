@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+﻿/*using UnityEngine;
 using UnityEngine.UI;
 public class Inventory : MonoBehaviour
 {
@@ -61,4 +61,4 @@ public class Inventory : MonoBehaviour
         {
             currentItem = items.Length-1;
         }
-    }
+    }*/
