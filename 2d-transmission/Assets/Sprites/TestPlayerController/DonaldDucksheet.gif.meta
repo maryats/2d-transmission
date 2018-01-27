@@ -1,0 +1,4012 @@
+fileFormatVersion: 2
+guid: 07a948b39a214b94aaeed381903be728
+timeCreated: 1517078037
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: DonaldDucksheet_0
+    21300002: DonaldDucksheet_1
+    21300004: DonaldDucksheet_2
+    21300006: DonaldDucksheet_3
+    21300008: DonaldDucksheet_4
+    21300010: DonaldDucksheet_5
+    21300012: DonaldDucksheet_6
+    21300014: DonaldDucksheet_7
+    21300016: DonaldDucksheet_8
+    21300018: DonaldDucksheet_9
+    21300020: DonaldDucksheet_10
+    21300022: DonaldDucksheet_11
+    21300024: DonaldDucksheet_12
+    21300026: DonaldDucksheet_13
+    21300028: DonaldDucksheet_14
+    21300030: DonaldDucksheet_15
+    21300032: DonaldDucksheet_16
+    21300034: DonaldDucksheet_17
+    21300036: DonaldDucksheet_18
+    21300038: DonaldDucksheet_19
+    21300040: DonaldDucksheet_20
+    21300042: DonaldDucksheet_21
+    21300044: DonaldDucksheet_22
+    21300046: DonaldDucksheet_23
+    21300048: DonaldDucksheet_24
+    21300050: DonaldDucksheet_25
+    21300052: DonaldDucksheet_26
+    21300054: DonaldDucksheet_27
+    21300056: DonaldDucksheet_28
+    21300058: DonaldDucksheet_29
+    21300060: DonaldDucksheet_30
+    21300062: DonaldDucksheet_31
+    21300064: DonaldDucksheet_32
+    21300066: DonaldDucksheet_33
+    21300068: DonaldDucksheet_34
+    21300070: DonaldDucksheet_35
+    21300072: DonaldDucksheet_36
+    21300074: DonaldDucksheet_37
+    21300076: DonaldDucksheet_38
+    21300078: DonaldDucksheet_39
+    21300080: DonaldDucksheet_40
+    21300082: DonaldDucksheet_41
+    21300084: DonaldDucksheet_42
+    21300086: DonaldDucksheet_43
+    21300088: DonaldDucksheet_44
+    21300090: DonaldDucksheet_45
+    21300092: DonaldDucksheet_46
+    21300094: DonaldDucksheet_47
+    21300096: DonaldDucksheet_48
+    21300098: DonaldDucksheet_49
+    21300100: DonaldDucksheet_50
+    21300102: DonaldDucksheet_51
+    21300104: DonaldDucksheet_52
+    21300106: DonaldDucksheet_53
+    21300108: DonaldDucksheet_54
+    21300110: DonaldDucksheet_55
+    21300112: DonaldDucksheet_56
+    21300114: DonaldDucksheet_57
+    21300116: DonaldDucksheet_58
+    21300118: DonaldDucksheet_59
+    21300120: DonaldDucksheet_60
+    21300122: DonaldDucksheet_61
+    21300124: DonaldDucksheet_62
+    21300126: DonaldDucksheet_63
+    21300128: DonaldDucksheet_64
+    21300130: DonaldDucksheet_65
+    21300132: DonaldDucksheet_66
+    21300134: DonaldDucksheet_67
+    21300136: DonaldDucksheet_68
+    21300138: DonaldDucksheet_69
+    21300140: DonaldDucksheet_70
+    21300142: DonaldDucksheet_71
+    21300144: DonaldDucksheet_72
+    21300146: DonaldDucksheet_73
+    21300148: DonaldDucksheet_74
+    21300150: DonaldDucksheet_75
+    21300152: DonaldDucksheet_76
+    21300154: DonaldDucksheet_77
+    21300156: DonaldDucksheet_78
+    21300158: DonaldDucksheet_79
+    21300160: DonaldDucksheet_80
+    21300162: DonaldDucksheet_81
+    21300164: DonaldDucksheet_82
+    21300166: DonaldDucksheet_83
+    21300168: DonaldDucksheet_84
+    21300170: DonaldDucksheet_85
+    21300172: DonaldDucksheet_86
+    21300174: DonaldDucksheet_87
+    21300176: DonaldDucksheet_88
+    21300178: DonaldDucksheet_89
+    21300180: DonaldDucksheet_90
+    21300182: DonaldDucksheet_91
+    21300184: DonaldDucksheet_92
+    21300186: DonaldDucksheet_93
+    21300188: DonaldDucksheet_94
+    21300190: DonaldDucksheet_95
+    21300192: DonaldDucksheet_96
+    21300194: DonaldDucksheet_97
+    21300196: DonaldDucksheet_98
+    21300198: DonaldDucksheet_99
+    21300200: DonaldDucksheet_100
+    21300202: DonaldDucksheet_101
+    21300204: DonaldDucksheet_102
+    21300206: DonaldDucksheet_103
+    21300208: DonaldDucksheet_104
+    21300210: DonaldDucksheet_105
+    21300212: DonaldDucksheet_106
+    21300214: DonaldDucksheet_107
+    21300216: DonaldDucksheet_108
+    21300218: DonaldDucksheet_109
+    21300220: DonaldDucksheet_110
+    21300222: DonaldDucksheet_111
+    21300224: DonaldDucksheet_112
+    21300226: DonaldDucksheet_113
+    21300228: DonaldDucksheet_114
+    21300230: DonaldDucksheet_115
+    21300232: DonaldDucksheet_116
+    21300234: DonaldDucksheet_117
+    21300236: DonaldDucksheet_118
+    21300238: DonaldDucksheet_119
+    21300240: DonaldDucksheet_120
+    21300242: DonaldDucksheet_121
+    21300244: DonaldDucksheet_122
+    21300246: DonaldDucksheet_123
+    21300248: DonaldDucksheet_124
+    21300250: DonaldDucksheet_125
+    21300252: DonaldDucksheet_126
+    21300254: DonaldDucksheet_127
+    21300256: DonaldDucksheet_128
+    21300258: DonaldDucksheet_129
+    21300260: DonaldDucksheet_130
+    21300262: DonaldDucksheet_131
+    21300264: DonaldDucksheet_132
+    21300266: DonaldDucksheet_133
+    21300268: DonaldDucksheet_134
+    21300270: DonaldDucksheet_135
+    21300272: DonaldDucksheet_136
+    21300274: DonaldDucksheet_137
+    21300276: DonaldDucksheet_138
+    21300278: DonaldDucksheet_139
+    21300280: DonaldDucksheet_140
+    21300282: DonaldDucksheet_141
+    21300284: DonaldDucksheet_142
+    21300286: DonaldDucksheet_143
+    21300288: DonaldDucksheet_144
+    21300290: DonaldDucksheet_145
+    21300292: DonaldDucksheet_146
+    21300294: DonaldDucksheet_147
+    21300296: DonaldDucksheet_148
+    21300298: DonaldDucksheet_149
+    21300300: DonaldDucksheet_150
+    21300302: DonaldDucksheet_151
+    21300304: DonaldDucksheet_152
+    21300306: DonaldDucksheet_153
+    21300308: DonaldDucksheet_154
+    21300310: DonaldDucksheet_155
+    21300312: DonaldDucksheet_156
+    21300314: DonaldDucksheet_157
+    21300316: DonaldDucksheet_158
+    21300318: DonaldDucksheet_159
+    21300320: DonaldDucksheet_160
+    21300322: DonaldDucksheet_161
+    21300324: DonaldDucksheet_162
+    21300326: DonaldDucksheet_163
+    21300328: DonaldDucksheet_164
+    21300330: DonaldDucksheet_165
+    21300332: DonaldDucksheet_166
+    21300334: DonaldDucksheet_167
+    21300336: DonaldDucksheet_168
+    21300338: DonaldDucksheet_169
+    21300340: DonaldDucksheet_170
+    21300342: DonaldDucksheet_171
+    21300344: DonaldDucksheet_172
+    21300346: DonaldDucksheet_173
+    21300348: DonaldDucksheet_174
+    21300350: DonaldDucksheet_175
+    21300352: DonaldDucksheet_176
+    21300354: DonaldDucksheet_177
+    21300356: DonaldDucksheet_178
+    21300358: DonaldDucksheet_179
+    21300360: DonaldDucksheet_180
+    21300362: DonaldDucksheet_181
+    21300364: DonaldDucksheet_182
+    21300366: DonaldDucksheet_183
+    21300368: DonaldDucksheet_184
+    21300370: DonaldDucksheet_185
+    21300372: DonaldDucksheet_186
+    21300374: DonaldDucksheet_187
+    21300376: DonaldDucksheet_188
+    21300378: DonaldDucksheet_189
+    21300380: DonaldDucksheet_190
+    21300382: DonaldDucksheet_191
+    21300384: DonaldDucksheet_192
+    21300386: DonaldDucksheet_193
+    21300388: DonaldDucksheet_194
+    21300390: DonaldDucksheet_195
+    21300392: DonaldDucksheet_196
+    21300394: DonaldDucksheet_197
+    21300396: DonaldDucksheet_198
+    21300398: DonaldDucksheet_199
+    21300400: DonaldDucksheet_200
+    21300402: DonaldDucksheet_201
+    21300404: DonaldDucksheet_202
+    21300406: DonaldDucksheet_203
+    21300408: DonaldDucksheet_204
+    21300410: DonaldDucksheet_205
+    21300412: DonaldDucksheet_206
+    21300414: DonaldDucksheet_207
+    21300416: DonaldDucksheet_208
+    21300418: DonaldDucksheet_209
+    21300420: DonaldDucksheet_210
+    21300422: DonaldDucksheet_211
+    21300424: DonaldDucksheet_212
+    21300426: DonaldDucksheet_213
+    21300428: DonaldDucksheet_214
+    21300430: DonaldDucksheet_215
+    21300432: DonaldDucksheet_216
+    21300434: DonaldDucksheet_217
+    21300436: DonaldDucksheet_218
+    21300438: DonaldDucksheet_219
+    21300440: DonaldDucksheet_220
+    21300442: DonaldDucksheet_221
+    21300444: DonaldDucksheet_222
+    21300446: DonaldDucksheet_223
+    21300448: DonaldDucksheet_224
+    21300450: DonaldDucksheet_225
+    21300452: DonaldDucksheet_226
+    21300454: DonaldDucksheet_227
+    21300456: DonaldDucksheet_228
+    21300458: DonaldDucksheet_229
+    21300460: DonaldDucksheet_230
+    21300462: DonaldDucksheet_231
+    21300464: DonaldDucksheet_232
+    21300466: DonaldDucksheet_233
+    21300468: DonaldDucksheet_234
+    21300470: DonaldDucksheet_235
+    21300472: DonaldDucksheet_236
+    21300474: DonaldDucksheet_237
+    21300476: DonaldDucksheet_238
+    21300478: DonaldDucksheet_239
+    21300480: DonaldDucksheet_240
+    21300482: DonaldDucksheet_241
+    21300484: DonaldDucksheet_242
+    21300486: DonaldDucksheet_243
+    21300488: DonaldDucksheet_244
+    21300490: DonaldDucksheet_245
+    21300492: DonaldDucksheet_246
+    21300494: DonaldDucksheet_247
+    21300496: DonaldDucksheet_248
+    21300498: DonaldDucksheet_249
+    21300500: DonaldDucksheet_250
+    21300502: DonaldDucksheet_251
+    21300504: DonaldDucksheet_252
+    21300506: DonaldDucksheet_253
+    21300508: DonaldDucksheet_254
+    21300510: DonaldDucksheet_255
+    21300512: DonaldDucksheet_256
+    21300514: DonaldDucksheet_257
+    21300516: DonaldDucksheet_258
+    21300518: DonaldDucksheet_259
+    21300520: DonaldDucksheet_260
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DonaldDucksheet_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1175
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1175
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_2
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1175
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_3
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1175
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_4
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1175
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_5
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1175
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_6
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1175
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_7
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1175
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_8
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1175
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_9
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 1175
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_10
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 1175
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_11
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1175
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_12
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 1175
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_13
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1175
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_14
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 1175
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_15
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1175
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_16
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 1175
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_17
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1173
+        width: 288
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1080
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_19
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1080
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_20
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1080
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_21
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1080
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_22
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1080
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_23
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1080
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_24
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1080
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_25
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1082
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_26
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 1080
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_27
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1080
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_28
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 1085
+        width: 35
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_29
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 1105
+        width: 57
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_30
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1095
+        width: 53
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_31
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1080
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_32
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 1080
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_33
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 1080
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_34
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 1080
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_35
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1081
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_36
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1081
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_37
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 1081
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_38
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 1081
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_39
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 1081
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_40
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 1081
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_41
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 1081
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_42
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 975
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_43
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 975
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_44
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 975
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_45
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 976
+        width: 30
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_46
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 976
+        width: 35
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_47
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 976
+        width: 38
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_48
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 976
+        width: 39
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_49
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 976
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_50
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 975
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_51
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 975
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_52
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 975
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_53
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 975
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_54
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 975
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_55
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 975
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_56
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 975
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_57
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 975
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_58
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 975
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_59
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 975
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_60
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 975
+        width: 41
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_61
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 975
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_62
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 895
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_63
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 895
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_64
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 895
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_65
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 895
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_66
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 894
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_67
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 895
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_68
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 895
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_69
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 895
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_70
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 895
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_71
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 895
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_72
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 895
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_73
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 895
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_74
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 895
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_75
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 895
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_76
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 820
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_77
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 810
+        width: 35
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_78
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 871
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_79
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 863
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_80
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 858
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_81
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 808
+        width: 52
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_82
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 863
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_83
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 854
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_84
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 806
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_85
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 807
+        width: 51
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_86
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 810
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_87
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 810
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_88
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 810
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_89
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 810
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_90
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 810
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_91
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 810
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_92
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 810
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_93
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 810
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_94
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 810
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_95
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 810
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_96
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 807
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_97
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 807
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_98
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 803
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_99
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 803
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_100
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 806
+        width: 57
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_101
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 808
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_102
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 806
+        width: 57
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_103
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 806
+        width: 51
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_104
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 725
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_105
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 725
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_106
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 725
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_107
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 725
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_108
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 725
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_109
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 725
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_110
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 725
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_111
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 725
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_112
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 725
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_113
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 725
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_114
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 725
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_115
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 725
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_116
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 725
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_117
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 725
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_118
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 725
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_119
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 725
+        width: 25
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_120
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 725
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_121
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 725
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_122
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 725
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_123
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 725
+        width: 26
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_124
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 725
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_125
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 725
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_126
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 725
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_127
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 725
+        width: 26
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_128
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 725
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_129
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 635
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_130
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 635
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_131
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 635
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_132
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 635
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_133
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 635
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_134
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 635
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_135
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 635
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_136
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 635
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_137
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 635
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_138
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 635
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_139
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 635
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_140
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 635
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_141
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 635
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_142
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 659
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_143
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 635
+        width: 63
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_144
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 635
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_145
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 535
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_146
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 535
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_147
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 535
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_148
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 535
+        width: 37
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_149
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 535
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_150
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 540
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_151
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 543
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_152
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 565
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_153
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 544
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_154
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 535
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_155
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 535
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_156
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 542
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_157
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 535
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_158
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 535
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_159
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 535
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_160
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 535
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_161
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 543
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_162
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 557
+        width: 46
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_163
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 550
+        width: 47
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_164
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 541
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_165
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 535
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_166
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 535
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_167
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 535
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_168
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 535
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_169
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 535
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_170
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 535
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_171
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 534
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_172
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 459
+        width: 60
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_173
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 438
+        width: 47
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_174
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 422
+        width: 24
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_175
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 439
+        width: 51
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_176
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 447
+        width: 63
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_177
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 445
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_178
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 462
+        width: 47
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_179
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 440
+        width: 45
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_180
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 434
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_181
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 435
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_182
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 430
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_183
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 425
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_184
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 350
+        width: 58
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_185
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 350
+        width: 58
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_186
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 350
+        width: 47
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_187
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 350
+        width: 62
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_188
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 350
+        width: 50
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_189
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 349
+        width: 58
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_190
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 350
+        width: 59
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_191
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 350
+        width: 54
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_192
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 350
+        width: 49
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_193
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 350
+        width: 59
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_194
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 350
+        width: 61
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_195
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 350
+        width: 51
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_196
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 350
+        width: 59
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_197
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 350
+        width: 50
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_198
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 357
+        width: 45
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_199
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 350
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_200
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 353
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_201
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 353
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_202
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 354
+        width: 21
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_203
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 356
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_204
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 350
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_205
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 350
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_206
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 350
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_207
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 350
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_208
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 350
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_209
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 245
+        width: 53
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_210
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 261
+        width: 66
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_211
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 278
+        width: 57
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_212
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 265
+        width: 55
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_213
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 250
+        width: 63
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_214
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 245
+        width: 60
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_215
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 245
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_216
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 243
+        width: 60
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_217
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 244
+        width: 61
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_218
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 244
+        width: 61
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_219
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 245
+        width: 54
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_220
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 245
+        width: 49
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_221
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 245
+        width: 42
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_222
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 105
+        width: 42
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_223
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 105
+        width: 64
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_224
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 105
+        width: 66
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_225
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 105
+        width: 64
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_226
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_227
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 165
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_228
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 147
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_229
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 125
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_230
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 120
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_231
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 120
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_232
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 120
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_233
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 120
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_234
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 120
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_235
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 105
+        width: 64
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_236
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 20
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_237
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 20
+        width: 52
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_238
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 20
+        width: 51
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_239
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 20
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_240
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 20
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_241
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 20
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_242
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 20
+        width: 47
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_243
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 7
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_244
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 7
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_245
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 7
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_246
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 6
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_247
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 6
+        width: 51
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_248
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 6
+        width: 45
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_249
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 8
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_250
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 7
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_251
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 6
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_252
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 7
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_253
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 7
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_254
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 0
+        width: 34
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_255
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 0
+        width: 32
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_256
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 0
+        width: 38
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_257
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 20
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_258
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 20
+        width: 47
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_259
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 20
+        width: 47
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DonaldDucksheet_260
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 20
+        width: 47
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
