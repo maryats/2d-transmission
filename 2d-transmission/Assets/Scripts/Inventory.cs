@@ -4,7 +4,7 @@ public class Inventory : MonoBehaviour
 {
     public Image[] itemImages = new Image[numItemSlots];
     public Item[] items = new Item[numItemSlots];
-    public int currentItem; 
+    public int currentItem;
     public const int numItemSlots = 10;
     public void AddItem(Item itemToAdd)
     {
@@ -35,7 +35,7 @@ public class Inventory : MonoBehaviour
 
     public void TransferItem(Item itemToTransfer)
     {
-       if (player1.input == transferButton)
+        if (player1.input == transferButton)
         {
             player1.removeItem(itemToTransfer);
             player2.addItem(itemToTransfer);
@@ -43,7 +43,7 @@ public class Inventory : MonoBehaviour
     }
 
     // cycles through inventory, probably moving this to player controller
-    public void toggleItems()   
+    public void toggleItems()
     {
         if (player.input == leftTrigger)        
         {
@@ -53,12 +53,17 @@ public class Inventory : MonoBehaviour
         {
             currentItem++;
         }
-        if (currentItem > items.Length-1)
+        if (currentItem > items.Length - 1)
         {
             currentItem = 0;
         }
         if (currentItem < 0)
         {
-            currentItem = items.Length-1;
+            currentItem = items.Length - 1;
         }
+<<<<<<< HEAD
+    }
+}
+=======
     }*/
+
