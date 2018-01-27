@@ -11,7 +11,7 @@ public class GameController : MonoBehaviour
 
     private void Update()
     {
-        if (playerHealth.currentHealth < 0)
+        if (playerHealth.currentHealth <= 0)
         {
             loseMessage.gameObject.SetActive(true);
         }
