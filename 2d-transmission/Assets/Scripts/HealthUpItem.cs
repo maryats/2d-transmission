@@ -8,15 +8,14 @@ public class HealthUpItem : MonoBehaviour {
 	public int recoverAmount;
     GameObject gatherer;
     public PlayerHealth gathererHealth;
-    public float spawnTime;
+    private float spawnTime;
 
     // Use this for initialization
     void Start () {
         gatherer = GameObject.Find("Gatherer");
         gathererHealth = gatherer.GetComponent<PlayerHealth>();
-        //destroySeconds = 60;
+        spawnTime = 7f;
         recoverAmount = 20;
-       // Destroy (this.gameObject, destroySeconds);
 	}
 	
 	// Update is called once per frame
@@ -30,14 +29,9 @@ public class HealthUpItem : MonoBehaviour {
         if (colliding.tag == "Gatherer")
         {
 
-            gathererHealth.Heal(recoverAmount);
             gameObject.SetActive(false);
-
-            if (gameObject.activeSelf == false)
-            {
-                Debug.Log("Item Destroyed");
-                Invoke("SpawnItem", spawnTime);
-            }
+            gathererHealth.Heal(recoverAmount);
+            Invoke("SpawnItem", spawnTime);
 
         }
     }
