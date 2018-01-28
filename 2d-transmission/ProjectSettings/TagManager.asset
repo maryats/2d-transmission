@@ -11,6 +11,7 @@ TagManager:
   - Mob
   - Boss Bullets
   - Player Bullets
+  - Boss
   layers:
   - Default
   - TransparentFX

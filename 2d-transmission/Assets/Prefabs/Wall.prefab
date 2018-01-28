@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4145583889829022}
   - component: {fileID: 212615937097997584}
   - component: {fileID: 61409208644553256}
+  - component: {fileID: 114173512098283848}
   m_Layer: 0
   m_Name: Wall
   m_TagString: Untagged
@@ -34,13 +35,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1949069133298540}
-  m_LocalRotation: {x: -0, y: -0, z: 0.999998, w: 0.0020133164}
-  m_LocalPosition: {x: 0.4564864, y: 7.74502, z: 0.03515625}
-  m_LocalScale: {x: 0.07, y: 0.07, z: 0.07660544}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 8.282, y: 0.89000416, z: 0.052734375}
+  m_LocalScale: {x: 0.38045284, y: 0.07, z: 0.07661}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 179.76901}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &61409208644553256
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -66,6 +67,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.99, y: 4.44}
   m_EdgeRadius: 0
+--- !u!114 &114173512098283848
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1949069133298540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7026177c44bc6e4ba3dd5df82724541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212615937097997584
 SpriteRenderer:
   m_ObjectHideFlags: 1

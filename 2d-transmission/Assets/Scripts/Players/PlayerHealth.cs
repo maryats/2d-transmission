@@ -82,9 +82,16 @@ public class PlayerHealth : MonoBehaviour {
 
     private void OnCollisionEnter2D(Collision2D collidor)
     {
-        if (collidor.gameObject.tag == "Mob" || collidor.gameObject.tag == "Boss")
-        {
-			TakeDamage (5);
-        }
+		if (collidor.gameObject.tag == "Mob") {
+			TakeDamage(5);
+		}
+
+		if (collidor.gameObject.tag == "Boss") {
+				TakeDamage(10);
+		}
+			
+		if (collidor.gameObject.tag == "Boss Bullets") {
+			TakeDamage(5);
+		}
     }
 }
