@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -57,7 +57,7 @@ public class Player : MonoBehaviour
         anim.SetFloat("speed",Mathf.Abs( horizontal));       
     }
 
-    void Flip(float horizontal)
+    public void Flip(float horizontal)
     {
         if (horizontal > 0 && !facingRight || horizontal < 0 && facingRight)
         {
