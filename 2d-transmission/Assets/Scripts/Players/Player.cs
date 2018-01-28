@@ -78,7 +78,7 @@ public void HandleJump()
 
     public bool IsGrounded()
     {
-        if (rb.velocity.y <= 0)
+        if (rb.velocity.y < 0.00001)
         {
             foreach (Transform point in groundPoints)
             {
