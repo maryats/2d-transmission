@@ -2,7 +2,6 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Inventory : MonoBehaviour {
-
 	public static int numItemSlots = 3;
 	SpriteRenderer[] itemSprites = new SpriteRenderer[numItemSlots];
 	public AttackUpItem[] items = new AttackUpItem[numItemSlots];
