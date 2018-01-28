@@ -12,7 +12,7 @@ public class PlayerHealth : MonoBehaviour {
 	public PlayerHealth otherPlayerHealth;
 
 	void Die () {
-		print ("YOU DIED");
+		print ("YOU DIED"); // TODO delete?
 	}
 
 	// Use this for initialization
@@ -41,16 +41,16 @@ public class PlayerHealth : MonoBehaviour {
 
 	public void TakeDamage (int amount) {
 		currentHealth -= amount;
-		healthSlider.value = currentHealth;
-
 		if (currentHealth <= 0) {
 			healthSlider.value = 0;
 			Die ();
+			return;
 		}
+		healthSlider.value = currentHealth;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
+
 	}
 }

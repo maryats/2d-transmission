@@ -26,7 +26,6 @@ public class Player : MonoBehaviour
     int stateHash = Animator.StringToHash("State");
     bool facingRight = true;
 
-
    public float speed = 1;
 
     private void Start()
@@ -40,15 +39,6 @@ public class Player : MonoBehaviour
     private void FixedUpdate()
     {
 
-        //float horizontal = Input.GetAxis("Horizontal");
-        //HandleMovement(horizontal);
-        //Flip(horizontal);
-        //isgrounded = IsGrounded();
-        //if (Input.GetKeyDown("space") && isgrounded)
-        //{
-        //    rb.AddForce(new Vector2(0, jumpforce));
-        //}
-
     }  
     
 public void HandleJump()
@@ -60,10 +50,6 @@ public void HandleJump()
     {
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
         anim.SetFloat("speed",Mathf.Abs( horizontal));
-        //print(horizontal);
-
-      //float f =(anim.GetFloat("speed"));
-
     }
 
     public void Flip(float horizontal)
