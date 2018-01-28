@@ -53,5 +53,5 @@ public class Shoot : MonoBehaviour
 
         // Destroy the bullet after 2 seconds
         Destroy(bullet.gameObject, 2.0f);
-    }
+	}
 }
