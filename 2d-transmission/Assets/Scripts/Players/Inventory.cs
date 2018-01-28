@@ -1,4 +1,4 @@
-using UnityEngine;
+/*using UnityEngine;
 using UnityEngine.UI;
 public class Inventory : MonoBehaviour {
 	public static int numItemSlots = 3;
@@ -54,6 +54,7 @@ public class Inventory : MonoBehaviour {
 
     }
 
+
 	public bool isFull() {
 		int counter = 0;
 		for (int i = 0; i < numItemSlots; i++) {
@@ -63,4 +64,5 @@ public class Inventory : MonoBehaviour {
 		}
 		return counter == numItemSlots;
 	}
-}
+}*/
+

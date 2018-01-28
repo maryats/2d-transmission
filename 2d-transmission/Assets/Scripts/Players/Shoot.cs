@@ -7,14 +7,18 @@ public class Shoot : MonoBehaviour
     public Bullet bulletPrefab;
     public Player player;
     private string playerTag;
-
+	[SerializeField]
+	private AudioSource huntlaser;
+	[SerializeField]
+	private AudioSource gatlaser;
 
     // Use this for initialization
     void Start()
     {
         playerTag = gameObject.tag;
         player = GameObject.FindGameObjectWithTag(playerTag).GetComponent<Player>();
-    }
+        
+	}
 
     // Update is called once per frame
     void Update()
@@ -23,11 +27,13 @@ public class Shoot : MonoBehaviour
         if (playerTag == "Hunter" && Input.GetKeyDown(KeyCode.Space))
         {
             shoot();
+			huntlaser.Play();
         }
 
         if (playerTag == "Gatherer" && Input.GetKeyDown(KeyCode.LeftShift))
         {
             shoot();
+			gatlaser.Play();
         }
     }
 

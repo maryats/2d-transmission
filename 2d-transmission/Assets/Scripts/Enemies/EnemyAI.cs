@@ -12,7 +12,7 @@ public class EnemyAI : MonoBehaviour {
     public Transform target;
 
     //How many times each second we will update path
-    public float updateRate = 2f;
+    public float updateRate = 1f;
 
     //Caching
     private Seeker seeker;
@@ -34,10 +34,17 @@ public class EnemyAI : MonoBehaviour {
     //The waypoint we are currently moving towards
     private int currentWaypoint = 0;
 
-    private bool searchingForPlayer = false;    
+    private bool searchingForPlayer = false;
+
+    private Vector3 direction;
+
+    public Bullet bullprefab;
 
     void Start()
     {
+        InvokeRepeating("increaseMonsterSpeed", 1.0f, 1.0f);
+        InvokeRepeating("shoot", 1.0f, 1.0f);
+
         seeker = GetComponent<Seeker>();
         rb = GetComponent<Rigidbody2D>();
 
@@ -105,6 +112,7 @@ public class EnemyAI : MonoBehaviour {
 
     void FixedUpdate()
     {
+
         if (target == null)
         {
             //TODO: insert player search
@@ -129,6 +137,7 @@ public class EnemyAI : MonoBehaviour {
 
         //Direction to the next waypoint
         Vector3 dir = (path.vectorPath[currentWaypoint] - transform.position).normalized;
+        this.direction = dir;
         dir *= speed * Time.fixedDeltaTime;
 
         //Move the AI
@@ -141,4 +150,20 @@ public class EnemyAI : MonoBehaviour {
             return;
         }
     }
+
+    void increaseMonsterSpeed()
+    {
+        if (this.speed >= 3000)
+        {
+            return;
+        }
+        this.speed += 50;
+    }
+
+    void shoot()
+    {
+        Bullet shootingBullet = Instantiate(bullprefab, transform.position, transform.rotation);
+        shootingBullet.GetComponent<Rigidbody2D>().velocity = this.direction * 5;
+    }
+
 }

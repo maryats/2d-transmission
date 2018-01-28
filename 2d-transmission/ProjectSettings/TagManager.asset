@@ -11,6 +11,7 @@ TagManager:
   - Mob
   - Boss Bullets
   - Player Bullets
+  - Boss
   layers:
   - Default
   - TransparentFX
@@ -45,6 +46,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BG
+    uniqueID: 4214038355
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
