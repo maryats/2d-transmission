@@ -54,10 +54,6 @@ public class Inventory : MonoBehaviour {
 
     }
 
-} 
-
-
-
 
 	public bool isFull() {
 		int counter = 0;
@@ -68,6 +64,6 @@ public class Inventory : MonoBehaviour {
 		}
 		return counter == numItemSlots;
 	}
-}*/
+}
 
-
+*/

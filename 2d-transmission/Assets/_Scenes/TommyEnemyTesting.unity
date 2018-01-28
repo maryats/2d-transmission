@@ -5968,10 +5968,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
-=======
 
->>>>>>> cd5f737024db972f5e88089d8a9efa6e08e9771f
 --- !u!4 &715924821
 Transform:
   m_ObjectHideFlags: 0
