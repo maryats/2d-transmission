@@ -19,6 +19,9 @@ public class Player : MonoBehaviour
     private LayerMask whatisground;
     private bool isgrounded;
 
+	public PlayerHealth playerHealth;
+	private const int DAMAGE_AMOUNT = 5;
+
     Rigidbody2D rb;
     Animator anim;
     int runHash = Animator.StringToHash("Run");
@@ -30,7 +33,6 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
-             
         anim = GetComponent<Animator>();
         anim.SetTrigger(idleHash);
         rb = GetComponent<Rigidbody2D>();
@@ -87,5 +89,4 @@ public void HandleJump()
     {
         return facingRight;
     }
-   
 }

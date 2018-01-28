@@ -32,6 +32,7 @@ public class GameController : MonoBehaviour
         float horizontalGatherer = Input.GetAxis("HorizontalGatherer");
         float horizontalHunter = Input.GetAxis("HorizontalHunter");
 
+
         hunter.HandleMovement(horizontalHunter);
         hunter.Flip(horizontalHunter);
 
