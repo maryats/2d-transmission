@@ -1,18 +1,23 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Player : MonoBehaviour
 {
     public float jumpforce; // Force applied for jumping
-    public float jumptime; // Maximum jump time allowed
-    public float jumptimecounter; // Tracks how long you have been jumping
-
+    
     public bool grounded; // Track if player is on ground
-    public bool stopjump;
-    public Collider2D playercollider; // Colliders to check is these objects are touching each other
-    public Collider2D obstaclecollider;
+    public bool jump;
 
+    [SerializeField]
+    private Transform[] groundPoints; // used to check if the sprite is on ground
+
+    [SerializeField]
+    private float groundradius; // 
+
+    [SerializeField]
+    private LayerMask whatisground;
+    private bool isgrounded;
 
     Rigidbody2D rb;
     Animator anim;
@@ -21,65 +26,35 @@ public class Player : MonoBehaviour
     int stateHash = Animator.StringToHash("State");
     bool facingRight = true;
 
-    [SerializeField]
-    Transform[] groundPoints;
-
-   public float speed = 10;
+   public float speed = 1;
 
     private void Start()
     {
-        jumptimecounter = jumptime;
-        playercollider = GetComponent<Collider2D>();
-        //obstaclecollider = GameObject.FindGameObjectWithTag("Obstacle").GetComponent<Collider2D>();
-        
+             
         anim = GetComponent<Animator>();
         anim.SetTrigger(idleHash);
         rb = GetComponent<Rigidbody2D>();
     }
 
-    private void Update()
-    {
-        grounded = playercollider.IsTouching(obstaclecollider);
-
-
-
-        float jumplen = Input.GetAxis("Jump");
-
-        if (Input.GetKey("space"))
-        {
-            Debug.Log(jumptimecounter);
-            if (grounded)
-            {
-                rb.velocity = new Vector2(jumplen, jumpforce);
-                stopjump = false;
-            }
-        }
-        if ((Input.GetKey("space")) && !stopjump)
-        {
-            if (jumptimecounter > 0)
-            {
-                rb.velocity = new Vector2(jumplen, jumpforce);
-                jumptimecounter -= Time.deltaTime;
-                Debug.Log(jumptimecounter);
-            }
-            else if (jumptimecounter < 0)
-            {
-                stopjump = true;
-            }
-
-        }
-    }
-
     private void FixedUpdate()
-    {
+    {       
 
-    }
-
-    public void HandleMovement(float horizontal)
+    float horizontal = Input.GetAxis("Horizontal");
+        HandleMovement(horizontal);
+        Flip(horizontal);
+        isgrounded = IsGrounded();
+        if (Input.GetKeyDown("space")&&isgrounded)
+        {
+            //jump = true;
+            rb.AddForce(new Vector2(0, jumpforce));
+        }
+       
+    }  
+    
+    void HandleMovement(float horizontal)
     {
             rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
-        anim.SetFloat("speed",Mathf.Abs( horizontal));
-
+        anim.SetFloat("speed",Mathf.Abs( horizontal));       
     }
 
     public void Flip(float horizontal)
@@ -93,13 +68,24 @@ public class Player : MonoBehaviour
         }
     }
 
-    /*public void Pickup()
+    private bool IsGrounded()
     {
-
-    }*/
-
-   /* public void Transmit()
-    {
-
-    }*/
+        if (rb.velocity.y <= 0)
+        {
+            foreach (Transform point in groundPoints)
+            {
+                Collider2D[] colliders = Physics2D.OverlapCircleAll(point.position, groundradius, whatisground);
+                for (int i = 0; i < colliders.Length; i++)
+                {
+                    if ((colliders[i]).gameObject != gameObject)
+                    {
+                        return true;
+                    }
+                }
+            }
+        }
+     return false;
+    
+    }
+   
 }

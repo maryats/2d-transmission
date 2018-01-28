@@ -13,10 +13,11 @@ public class Shoot : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		shootDirection ();
+		// shootDirection ();
 		shoot ();
 	}
 
+	/*
 	void shootDirection() {
 		if (Input.GetKey (KeyCode.A)) {
 			this.direction = 1;
@@ -25,14 +26,20 @@ public class Shoot : MonoBehaviour {
 			this.direction = 2;
 		}
 	}
+	*/
 
 	void shoot() {
 		if (Input.GetKeyDown(KeyCode.G)) {
+			// The direction the bullet is moving in
+			int direction = 2; // 1 is left, 2 is right
+
 			// Create the Bullet from the Bullet Prefab
 			Bullet bullet = Instantiate(
 				bulletPrefab,
 				this.transform.position,
 				this.transform.rotation);
+
+			bullet.updateDamage (playerDamage + bulletDamage);
 
 			// Add velocity to the bullet
 			if (this.direction == 1) {
