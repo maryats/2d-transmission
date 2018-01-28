@@ -22,7 +22,10 @@ GameObject:
   - component: {fileID: 212656508603602986}
   - component: {fileID: 50596731342219654}
   - component: {fileID: 61256871579206360}
-  - component: {fileID: 114658133939756112}
+  - component: {fileID: 95859581575849974}
+  - component: {fileID: 114873954664581058}
+  - component: {fileID: 114774749581816144}
+  - component: {fileID: 114453426204542614}
   m_Layer: 0
   m_Name: Mob Enemies
   m_TagString: Untagged
@@ -88,17 +91,60 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.23, y: 1.62}
   m_EdgeRadius: 0
---- !u!114 &114658133939756112
-MonoBehaviour:
+--- !u!95 &95859581575849974
+Animator:
+  serializedVersion: 3
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1915465509991666}
   m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6d0cca0c357f26546ae7ac2245e69822, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114453426204542614
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1915465509991666}
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6e57e297234f480c8b9cab4021a1ebe, type: 3}
+  m_Script: {fileID: 11500000, guid: 503056e891f754e40ac92859a3b51de2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnTime: 3
+  intSpawn: 1
+--- !u!114 &114774749581816144
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1915465509991666}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba31f9e40b78459a9e53aa556f3f67b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 0
+--- !u!114 &114873954664581058
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1915465509991666}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac9f0738b59796242aa9e85242a60827, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementSpeed: 0.01
   runForwards: 1
 --- !u!212 &212656508603602986
 SpriteRenderer:
@@ -133,7 +179,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 18c2a2105e795cf4dace5f2dd0582498, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
