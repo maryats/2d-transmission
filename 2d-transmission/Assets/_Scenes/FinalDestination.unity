@@ -911,7 +911,7 @@ GameObject:
   - component: {fileID: 92119488}
   m_Layer: 9
   m_Name: Mob Enemy Bottom Pit
-  m_TagString: Untagged
+  m_TagString: Mob
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3198,7 +3198,7 @@ GameObject:
   - component: {fileID: 403076443}
   m_Layer: 9
   m_Name: Mob Enemy Top Left
-  m_TagString: Untagged
+  m_TagString: Mob
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5621,6 +5621,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1778244836653208, guid: d3e38b8d57fe58a4f90d848cec683848, type: 2}
+      propertyPath: m_TagString
+      value: Mob
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d3e38b8d57fe58a4f90d848cec683848, type: 2}
   m_IsPrefabParent: 0
@@ -5709,7 +5713,7 @@ GameObject:
   - component: {fileID: 779793815}
   m_Layer: 9
   m_Name: Mob Enemy Left Divit
-  m_TagString: Untagged
+  m_TagString: Mob
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6649,7 +6653,7 @@ GameObject:
   - component: {fileID: 856231970}
   m_Layer: 9
   m_Name: Mob Enemy Left Plat
-  m_TagString: Untagged
+  m_TagString: Mob
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9960,6 +9964,10 @@ Prefab:
       propertyPath: m_Name
       value: Mob Enemy Top Right
       objectReference: {fileID: 0}
+    - target: {fileID: 1778244836653208, guid: d3e38b8d57fe58a4f90d848cec683848, type: 2}
+      propertyPath: m_TagString
+      value: Mob
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d3e38b8d57fe58a4f90d848cec683848, type: 2}
   m_IsPrefabParent: 0
@@ -11242,7 +11250,7 @@ MonoBehaviour:
   whatisground:
     serializedVersion: 2
     m_Bits: 4294967295
-  playerHealth: {fileID: 0}
+  playerHealth: {fileID: 2064027868}
   speed: 6
 --- !u!95 &1411560646
 Animator:
@@ -11332,9 +11340,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e0858e68813c4fcfa943ef9727d384d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startHealth: 0
-  currentHealth: 0
-  maxHealth: 0
+  startHealth: 20
+  maxHealth: 20
   healthSlider: {fileID: 661714212}
   otherPlayerHealth: {fileID: 2064027868}
   sourceDeath: {fileID: 1876829112}
@@ -11736,7 +11743,7 @@ GameObject:
   - component: {fileID: 1456071376}
   m_Layer: 9
   m_Name: Mob Enemy Staircase
-  m_TagString: Untagged
+  m_TagString: Mob
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11981,6 +11988,10 @@ Prefab:
         type: 2}
       propertyPath: m_BodyType
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1915465509991666, guid: 66420f947e83e0042840acb8457f60fe, type: 2}
+      propertyPath: m_TagString
+      value: Mob
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 66420f947e83e0042840acb8457f60fe, type: 2}
@@ -15278,7 +15289,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startHealth: 100
-  currentHealth: 0
   maxHealth: 100
   healthSlider: {fileID: 0}
   otherPlayerHealth: {fileID: 0}

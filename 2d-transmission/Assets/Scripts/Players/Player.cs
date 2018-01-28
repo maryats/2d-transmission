@@ -19,8 +19,8 @@ public class Player : MonoBehaviour
     private LayerMask whatisground;
     private bool isgrounded;
 
- 	  public PlayerHealth playerHealth;
-	  private const int DAMAGE_AMOUNT = 5;
+ 	public PlayerHealth playerHealth;
+	private const int DAMAGE_AMOUNT = 5;
 
     Rigidbody2D rb;
     Animator anim;
