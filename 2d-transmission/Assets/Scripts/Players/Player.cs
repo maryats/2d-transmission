@@ -19,6 +19,9 @@ public class Player : MonoBehaviour
     private LayerMask whatisground;
     private bool isgrounded;
 
+	public PlayerHealth playerHealth;
+	private const int DAMAGE_AMOUNT = 5;
+
     Rigidbody2D rb;
     Animator anim;
     int runHash = Animator.StringToHash("Run");
@@ -30,7 +33,6 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
-             
         anim = GetComponent<Animator>();
         anim.SetTrigger(idleHash);
         rb = GetComponent<Rigidbody2D>();
@@ -50,7 +52,7 @@ public class Player : MonoBehaviour
 
     }  
     
-public void HandleJump()
+	public void HandleJump()
     {
         rb.AddForce(new Vector2(0, jumpforce));
     }
@@ -58,11 +60,7 @@ public void HandleJump()
    public void HandleMovement(float horizontal)
     {
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
-        anim.SetFloat("speed",Mathf.Abs( horizontal));
-        //print(horizontal);
-
-      //float f =(anim.GetFloat("speed"));
-
+        anim.SetFloat("speed", Mathf.Abs( horizontal));
     }
 
     public void Flip(float horizontal)
@@ -77,23 +75,24 @@ public void HandleJump()
     }
 
     public bool IsGrounded()
-    {
-        if (rb.velocity.y < 0.00001)
-        {
-            foreach (Transform point in groundPoints)
-            {
-                Collider2D[] colliders = Physics2D.OverlapCircleAll(point.position, groundradius, whatisground);
-                for (int i = 0; i < colliders.Length; i++)
-                {
-                    if ((colliders[i]).gameObject != gameObject)
-                    {
-                        return true;
-                    }
-                }
-            }
-        }
-     return false;
-    
-    }
-   
+	{
+		if (rb.velocity.y < 0.00001) {
+			foreach (Transform point in groundPoints) {
+				Collider2D[] colliders = Physics2D.OverlapCircleAll (point.position, groundradius, whatisground);
+				for (int i = 0; i < colliders.Length; i++) {
+					if ((colliders [i]).gameObject != gameObject) {
+						return true;
+					}
+				}
+			}
+		}
+		return false;
+	}  
+
+	public void OnCollisionEnter(Collision collision) {
+		// if colliding with enemy
+		if (collision.gameObject.tag == "Mob") {
+			playerHealth.TakeDamage(DAMAGE_AMOUNT);
+		}
+	}
 }

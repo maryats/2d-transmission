@@ -5,20 +5,20 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour {
 
-	public int startingHealth = 100;
+	public int startHealth = 100;
 	public int currentHealth;
 	public int maxHealth = 100;
 	public Slider healthSlider;
 	public PlayerHealth otherPlayerHealth;
 
 	void Die () {
-		print ("YOU DIED"); // TODO delete?
+//		print ("YOU DIED"); // TODO delete?
 	}
 
 	// Use this for initialization
 	void Start () {
 		// Player starts at full health
-		currentHealth = maxHealth;
+		currentHealth = startHealth;
 
 		// Update health slider to reflect Player stats
 		healthSlider.maxValue = maxHealth;
@@ -28,6 +28,7 @@ public class PlayerHealth : MonoBehaviour {
 	public void Heal (int amount) {
 		if ((currentHealth + amount) <= maxHealth) {
 			currentHealth += amount;
+			healthSlider.value = currentHealth;
 		}
 	}
 
