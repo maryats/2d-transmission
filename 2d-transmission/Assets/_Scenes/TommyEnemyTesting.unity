@@ -410,6 +410,7 @@ GameObject:
   - component: {fileID: 55159130}
   - component: {fileID: 55159132}
   - component: {fileID: 55159131}
+  - component: {fileID: 55159133}
   m_Layer: 0
   m_Name: Top left Corner Collider
   m_TagString: Untagged
@@ -499,6 +500,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
+--- !u!114 &55159133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 55159129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7026177c44bc6e4ba3dd5df82724541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &70563472 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4653402727981398, guid: 711d496a12cb45d469413554c57b1b69,
@@ -560,6 +572,7 @@ GameObject:
   - component: {fileID: 84706071}
   - component: {fileID: 84706073}
   - component: {fileID: 84706072}
+  - component: {fileID: 84706074}
   m_Layer: 0
   m_Name: Left Mid Plat Collider
   m_TagString: Untagged
@@ -649,6 +662,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
+--- !u!114 &84706074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 84706070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7026177c44bc6e4ba3dd5df82724541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &98338135
 Prefab:
   m_ObjectHideFlags: 0
@@ -802,6 +826,7 @@ GameObject:
   - component: {fileID: 149618180}
   - component: {fileID: 149618182}
   - component: {fileID: 149618181}
+  - component: {fileID: 149618183}
   m_Layer: 0
   m_Name: Bottom Ditch Collider
   m_TagString: Untagged
@@ -891,6 +916,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
+--- !u!114 &149618183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 149618179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7026177c44bc6e4ba3dd5df82724541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &152242804 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4653402727981398, guid: 711d496a12cb45d469413554c57b1b69,
@@ -1033,6 +1069,7 @@ GameObject:
   - component: {fileID: 161836603}
   - component: {fileID: 161836605}
   - component: {fileID: 161836604}
+  - component: {fileID: 161836606}
   m_Layer: 0
   m_Name: Bottom Collider
   m_TagString: Untagged
@@ -1122,6 +1159,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
+--- !u!114 &161836606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 161836602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7026177c44bc6e4ba3dd5df82724541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &162749092
 Prefab:
   m_ObjectHideFlags: 0
@@ -1293,6 +1341,7 @@ GameObject:
   - component: {fileID: 204613194}
   - component: {fileID: 204613196}
   - component: {fileID: 204613195}
+  - component: {fileID: 204613197}
   m_Layer: 0
   m_Name: Right Box Plat Collider
   m_TagString: Untagged
@@ -1382,6 +1431,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
+--- !u!114 &204613197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 204613193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7026177c44bc6e4ba3dd5df82724541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &206657073 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4653402727981398, guid: 711d496a12cb45d469413554c57b1b69,
@@ -2575,6 +2635,7 @@ GameObject:
   - component: {fileID: 389835973}
   - component: {fileID: 389835975}
   - component: {fileID: 389835974}
+  - component: {fileID: 389835976}
   m_Layer: 0
   m_Name: Bottom box Collider
   m_TagString: Untagged
@@ -2664,6 +2725,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
+--- !u!114 &389835976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 389835972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7026177c44bc6e4ba3dd5df82724541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &391887204
 Prefab:
   m_ObjectHideFlags: 0
@@ -2789,6 +2861,7 @@ GameObject:
   - component: {fileID: 402109032}
   - component: {fileID: 402109031}
   - component: {fileID: 402109030}
+  - component: {fileID: 402109037}
   m_Layer: 9
   m_Name: Mob Enemy Left Divit
   m_TagString: Mob
@@ -2958,6 +3031,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &402109037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 402109028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4570791e39bf8344a89543ac11611932, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &403707574
 Prefab:
   m_ObjectHideFlags: 0
@@ -3720,6 +3804,7 @@ GameObject:
   - component: {fileID: 519929232}
   - component: {fileID: 519929234}
   - component: {fileID: 519929233}
+  - component: {fileID: 519929235}
   m_Layer: 0
   m_Name: Left Mid Plat Collider
   m_TagString: Untagged
@@ -3809,6 +3894,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
+--- !u!114 &519929235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 519929231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7026177c44bc6e4ba3dd5df82724541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &521451652
 GameObject:
   m_ObjectHideFlags: 0
@@ -3819,6 +3915,7 @@ GameObject:
   - component: {fileID: 521451653}
   - component: {fileID: 521451655}
   - component: {fileID: 521451654}
+  - component: {fileID: 521451656}
   m_Layer: 0
   m_Name: Top Right Corner Collider
   m_TagString: Untagged
@@ -3908,6 +4005,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
+--- !u!114 &521451656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 521451652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7026177c44bc6e4ba3dd5df82724541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &536268290
 Prefab:
   m_ObjectHideFlags: 0
@@ -4181,6 +4289,7 @@ GameObject:
   - component: {fileID: 558400654}
   - component: {fileID: 558400656}
   - component: {fileID: 558400655}
+  - component: {fileID: 558400657}
   m_Layer: 0
   m_Name: Bottom Left Divit Collider
   m_TagString: Untagged
@@ -4270,6 +4379,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
+--- !u!114 &558400657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 558400653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7026177c44bc6e4ba3dd5df82724541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &573987017
 GameObject:
   m_ObjectHideFlags: 0
@@ -4586,6 +4706,7 @@ MonoBehaviour:
   whatisground:
     serializedVersion: 2
     m_Bits: 4294967295
+  playerHealth: {fileID: 0}
   speed: 6
 --- !u!95 &594831113
 Animator:
@@ -4675,7 +4796,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e0858e68813c4fcfa943ef9727d384d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingHealth: 100
+  startHealth: 100
   currentHealth: 0
   maxHealth: 100
   healthSlider: {fileID: 0}
@@ -5556,6 +5677,7 @@ GameObject:
   - component: {fileID: 707798324}
   - component: {fileID: 707798326}
   - component: {fileID: 707798325}
+  - component: {fileID: 707798327}
   m_Layer: 0
   m_Name: Right Bot Plat Collider
   m_TagString: Untagged
@@ -5645,6 +5767,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
+--- !u!114 &707798327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 707798323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7026177c44bc6e4ba3dd5df82724541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &715924820
 GameObject:
   m_ObjectHideFlags: 0
@@ -5845,6 +5978,7 @@ GameObject:
   - component: {fileID: 733710968}
   - component: {fileID: 733710970}
   - component: {fileID: 733710969}
+  - component: {fileID: 733710971}
   m_Layer: 0
   m_Name: Right Side Collider
   m_TagString: Untagged
@@ -5934,6 +6068,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
+--- !u!114 &733710971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 733710967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7026177c44bc6e4ba3dd5df82724541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &743322104
 GameObject:
   m_ObjectHideFlags: 0
@@ -6291,6 +6436,7 @@ GameObject:
   - component: {fileID: 793957482}
   - component: {fileID: 793957484}
   - component: {fileID: 793957483}
+  - component: {fileID: 793957485}
   m_Layer: 0
   m_Name: Left Top Divit Collider
   m_TagString: Untagged
@@ -6380,6 +6526,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
+--- !u!114 &793957485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 793957481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7026177c44bc6e4ba3dd5df82724541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &805549796
 Prefab:
   m_ObjectHideFlags: 0
@@ -6746,6 +6903,7 @@ GameObject:
   - component: {fileID: 881389171}
   - component: {fileID: 881389170}
   - component: {fileID: 881389169}
+  - component: {fileID: 881389176}
   m_Layer: 9
   m_Name: Mob Enemy Staircase
   m_TagString: Mob
@@ -6915,6 +7073,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &881389176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 881389167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4570791e39bf8344a89543ac11611932, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &884502409
 Prefab:
   m_ObjectHideFlags: 0
@@ -7134,6 +7303,7 @@ GameObject:
   - component: {fileID: 924642826}
   - component: {fileID: 924642828}
   - component: {fileID: 924642827}
+  - component: {fileID: 924642829}
   m_Layer: 0
   m_Name: Top Collider
   m_TagString: Untagged
@@ -7223,6 +7393,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
+--- !u!114 &924642829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 924642825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7026177c44bc6e4ba3dd5df82724541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &950169121
 Prefab:
   m_ObjectHideFlags: 0
@@ -8084,6 +8265,7 @@ GameObject:
   - component: {fileID: 1128321511}
   - component: {fileID: 1128321513}
   - component: {fileID: 1128321512}
+  - component: {fileID: 1128321514}
   m_Layer: 0
   m_Name: Right Inner Box Collider
   m_TagString: Untagged
@@ -8173,6 +8355,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
+--- !u!114 &1128321514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1128321510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7026177c44bc6e4ba3dd5df82724541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1132260301
 Prefab:
   m_ObjectHideFlags: 0
@@ -8234,6 +8427,7 @@ GameObject:
   - component: {fileID: 1135796472}
   - component: {fileID: 1135796474}
   - component: {fileID: 1135796473}
+  - component: {fileID: 1135796475}
   m_Layer: 0
   m_Name: Top Inner Box Collider
   m_TagString: Untagged
@@ -8323,6 +8517,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
+--- !u!114 &1135796475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1135796471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7026177c44bc6e4ba3dd5df82724541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1139746328
 Prefab:
   m_ObjectHideFlags: 0
@@ -8809,6 +9014,7 @@ GameObject:
   - component: {fileID: 1273066364}
   - component: {fileID: 1273066366}
   - component: {fileID: 1273066365}
+  - component: {fileID: 1273066367}
   m_Layer: 0
   m_Name: Left Mid Side Collider
   m_TagString: Untagged
@@ -8898,6 +9104,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
+--- !u!114 &1273066367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1273066363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7026177c44bc6e4ba3dd5df82724541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1273936250
 GameObject:
   m_ObjectHideFlags: 0
@@ -9524,6 +9741,7 @@ GameObject:
   - component: {fileID: 1364088204}
   - component: {fileID: 1364088206}
   - component: {fileID: 1364088205}
+  - component: {fileID: 1364088207}
   m_Layer: 0
   m_Name: Bottom Right Corner Collider
   m_TagString: Untagged
@@ -9613,6 +9831,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
+--- !u!114 &1364088207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1364088203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7026177c44bc6e4ba3dd5df82724541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1399319340
 Prefab:
   m_ObjectHideFlags: 0
@@ -9808,6 +10037,7 @@ GameObject:
   - component: {fileID: 1419003378}
   - component: {fileID: 1419003377}
   - component: {fileID: 1419003376}
+  - component: {fileID: 1419003383}
   m_Layer: 9
   m_Name: Mob Enemy Top Left
   m_TagString: Mob
@@ -9977,6 +10207,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1419003383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1419003374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4570791e39bf8344a89543ac11611932, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1420596270
 GameObject:
   m_ObjectHideFlags: 0
@@ -9987,6 +10228,7 @@ GameObject:
   - component: {fileID: 1420596271}
   - component: {fileID: 1420596273}
   - component: {fileID: 1420596272}
+  - component: {fileID: 1420596274}
   m_Layer: 0
   m_Name: Bottom Left Collider
   m_TagString: Untagged
@@ -10076,6 +10318,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
+--- !u!114 &1420596274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1420596270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7026177c44bc6e4ba3dd5df82724541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1424090202
 GameObject:
   m_ObjectHideFlags: 0
@@ -10086,6 +10339,7 @@ GameObject:
   - component: {fileID: 1424090203}
   - component: {fileID: 1424090205}
   - component: {fileID: 1424090204}
+  - component: {fileID: 1424090206}
   m_Layer: 0
   m_Name: Left Divit Collider
   m_TagString: Untagged
@@ -10175,6 +10429,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
+--- !u!114 &1424090206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1424090202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7026177c44bc6e4ba3dd5df82724541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1438867421
 Prefab:
   m_ObjectHideFlags: 0
@@ -10323,6 +10588,7 @@ GameObject:
   - component: {fileID: 1457267432}
   - component: {fileID: 1457267434}
   - component: {fileID: 1457267433}
+  - component: {fileID: 1457267435}
   m_Layer: 0
   m_Name: Bottom Right Plat Side Collider
   m_TagString: Untagged
@@ -10412,6 +10678,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
+--- !u!114 &1457267435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1457267431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7026177c44bc6e4ba3dd5df82724541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1464106158
 Prefab:
   m_ObjectHideFlags: 0
@@ -10822,6 +11099,7 @@ GameObject:
   - component: {fileID: 1508039651}
   - component: {fileID: 1508039653}
   - component: {fileID: 1508039652}
+  - component: {fileID: 1508039654}
   m_Layer: 0
   m_Name: Top Stair Collider
   m_TagString: Untagged
@@ -10911,6 +11189,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
+--- !u!114 &1508039654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1508039650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7026177c44bc6e4ba3dd5df82724541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1517476810
 Prefab:
   m_ObjectHideFlags: 0
@@ -11054,6 +11343,7 @@ GameObject:
   - component: {fileID: 1525252266}
   - component: {fileID: 1525252265}
   - component: {fileID: 1525252264}
+  - component: {fileID: 1525252271}
   m_Layer: 9
   m_Name: Mob Enemy Left Plat
   m_TagString: Mob
@@ -11223,6 +11513,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1525252271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1525252262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4570791e39bf8344a89543ac11611932, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1539732588
 Prefab:
   m_ObjectHideFlags: 0
@@ -11340,6 +11641,7 @@ GameObject:
   - component: {fileID: 1588321075}
   - component: {fileID: 1588321077}
   - component: {fileID: 1588321076}
+  - component: {fileID: 1588321078}
   m_Layer: 0
   m_Name: Bottom Stair Collider
   m_TagString: Untagged
@@ -11429,6 +11731,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
+--- !u!114 &1588321078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1588321074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7026177c44bc6e4ba3dd5df82724541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1594189124 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4653402727981398, guid: 711d496a12cb45d469413554c57b1b69,
@@ -11917,6 +12230,7 @@ GameObject:
   - component: {fileID: 1631206981}
   - component: {fileID: 1631206980}
   - component: {fileID: 1631206979}
+  - component: {fileID: 1631206986}
   m_Layer: 9
   m_Name: Mob Enemy Bottom Pit
   m_TagString: Mob
@@ -12086,6 +12400,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1631206986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1631206977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4570791e39bf8344a89543ac11611932, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1634543788 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4653402727981398, guid: 711d496a12cb45d469413554c57b1b69,
@@ -12543,6 +12868,22 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 711d496a12cb45d469413554c57b1b69, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1677372777 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1915465509991666, guid: 66420f947e83e0042840acb8457f60fe,
+    type: 2}
+  m_PrefabInternal: {fileID: 2101392790}
+--- !u!114 &1677372778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1677372777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4570791e39bf8344a89543ac11611932, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1682573491
 GameObject:
   m_ObjectHideFlags: 0
@@ -12754,6 +13095,7 @@ GameObject:
   - component: {fileID: 1685094457}
   - component: {fileID: 1685094459}
   - component: {fileID: 1685094458}
+  - component: {fileID: 1685094460}
   m_Layer: 0
   m_Name: Top Right Plat Collider
   m_TagString: Untagged
@@ -12843,6 +13185,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
+--- !u!114 &1685094460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1685094456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7026177c44bc6e4ba3dd5df82724541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1685925951
 Prefab:
   m_ObjectHideFlags: 0
@@ -13938,6 +14291,7 @@ MonoBehaviour:
   whatisground:
     serializedVersion: 2
     m_Bits: 4294967295
+  playerHealth: {fileID: 0}
   speed: 6
 --- !u!95 &1885336794
 Animator:
@@ -14027,7 +14381,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e0858e68813c4fcfa943ef9727d384d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingHealth: 80
+  startHealth: 100
   currentHealth: 0
   maxHealth: 100
   healthSlider: {fileID: 0}
@@ -14043,7 +14397,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db0c4bdb514b4644ba1d06097cef5ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 114433378417737778, guid: aef810ccd6a196441913632b0dc8716c,
+  bulletPrefab: {fileID: 114540087678159670, guid: 1890338b38f13db4c92494d9fab036da,
     type: 2}
   player: {fileID: 1885336793}
 --- !u!1 &1903458006
@@ -14316,6 +14670,7 @@ GameObject:
   - component: {fileID: 1916589165}
   - component: {fileID: 1916589167}
   - component: {fileID: 1916589166}
+  - component: {fileID: 1916589168}
   m_Layer: 0
   m_Name: Top Right Indent Collider
   m_TagString: Untagged
@@ -14405,6 +14760,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
+--- !u!114 &1916589168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1916589164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7026177c44bc6e4ba3dd5df82724541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1934469597 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4653402727981398, guid: 711d496a12cb45d469413554c57b1b69,
@@ -14873,6 +15239,7 @@ GameObject:
   - component: {fileID: 1980231293}
   - component: {fileID: 1980231295}
   - component: {fileID: 1980231294}
+  - component: {fileID: 1980231296}
   m_Layer: 0
   m_Name: Right Mid Plat Collider
   m_TagString: Untagged
@@ -14962,6 +15329,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
+--- !u!114 &1980231296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1980231292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7026177c44bc6e4ba3dd5df82724541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1981131654
 GameObject:
   m_ObjectHideFlags: 0
@@ -15199,6 +15577,7 @@ GameObject:
   - component: {fileID: 2009099892}
   - component: {fileID: 2009099891}
   - component: {fileID: 2009099890}
+  - component: {fileID: 2009099897}
   m_Layer: 9
   m_Name: Mob Enemy Bottom Right
   m_TagString: Mob
@@ -15368,6 +15747,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &2009099897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2009099888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4570791e39bf8344a89543ac11611932, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2012564420
 Prefab:
   m_ObjectHideFlags: 0
@@ -15792,6 +16182,7 @@ GameObject:
   - component: {fileID: 2084365624}
   - component: {fileID: 2084365626}
   - component: {fileID: 2084365625}
+  - component: {fileID: 2084365627}
   m_Layer: 0
   m_Name: Left Box Collider
   m_TagString: Untagged
@@ -15881,6 +16272,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
+--- !u!114 &2084365627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2084365623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7026177c44bc6e4ba3dd5df82724541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2097460497
 Prefab:
   m_ObjectHideFlags: 0
