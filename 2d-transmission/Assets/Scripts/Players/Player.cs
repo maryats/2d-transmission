@@ -72,21 +72,17 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
-        
 
-    float horizontal = Input.GetAxis("Horizontal");
-        HandleMovement(horizontal);
-        Flip(horizontal);
     }
 
-    void HandleMovement(float horizontal)
+    public void HandleMovement(float horizontal)
     {
             rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
         anim.SetFloat("speed",Mathf.Abs( horizontal));
 
     }
 
-    void Flip(float horizontal)
+    public void Flip(float horizontal)
     {
         if (horizontal > 0 && !facingRight || horizontal < 0 && facingRight)
         {
