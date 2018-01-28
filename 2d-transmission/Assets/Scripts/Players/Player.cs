@@ -26,6 +26,7 @@ public class Player : MonoBehaviour
     int stateHash = Animator.StringToHash("State");
     bool facingRight = true;
 
+
    public float speed = 1;
 
     private void Start()
@@ -94,6 +95,11 @@ public void HandleJump()
         }
      return false;
     
+    }
+
+    public bool IsFacingRight()
+    {
+        return facingRight;
     }
    
 }
