@@ -35,6 +35,11 @@ public class PlayerHealth : MonoBehaviour {
 			currentHealth += amount;
 			healthSlider.value = currentHealth;
 		}
+        else if ((currentHealth + amount) > maxHealth)
+        {
+            currentHealth = maxHealth;
+            healthSlider.value = currentHealth;
+        }
 	}
 
 	public bool IsDead ()
@@ -69,5 +74,13 @@ public class PlayerHealth : MonoBehaviour {
     void Update ()
     {
         
-    }   
+    }
+
+    private void OnCollisionEnter2D(Collision2D collidor)
+    {
+        if (collidor.gameObject.tag == "Mob" || collidor.gameObject.tag == "Boss")
+        {
+            currentHealth -= 5;
+        }
+    }
 }

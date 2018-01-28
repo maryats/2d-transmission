@@ -53,9 +53,11 @@ public class Inventory : MonoBehaviour {
         }
 
     }
-<<<<<<< HEAD
-} */
-=======
+
+} 
+
+
+
 
 	public bool isFull() {
 		int counter = 0;
@@ -66,5 +68,6 @@ public class Inventory : MonoBehaviour {
 		}
 		return counter == numItemSlots;
 	}
-}
->>>>>>> master
+}*/
+
+

@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 50927622325466134}
   - component: {fileID: 58536558116893198}
   m_Layer: 0
-  m_Name: Bullet-Red-Hunter 1
+  m_Name: Bullet-Red-Hunter
   m_TagString: Player Bullets
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
