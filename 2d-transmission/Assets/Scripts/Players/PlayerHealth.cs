@@ -9,29 +9,36 @@ public class PlayerHealth : MonoBehaviour {
 	public int currentHealth;
 	public int maxHealth = 100;
 	public Slider healthSlider;
+	public PlayerHealth otherPlayerHealth;
+    public AudioClip playerhurt;   
 
-	void Die () {
-//		print ("YOU DIED"); // TODO delete?
-	}
-
+    [SerializeField]
+    private AudioSource sourceDeath;
+    [SerializeField]
+    private AudioSource sourcehurt;
+    
 	// Use this for initialization
-	void Start () {
+	void Start ()
+    {
 		// Player starts at full health
 		currentHealth = startHealth;
 
 		// Update health slider to reflect Player stats
 		healthSlider.maxValue = maxHealth;
-		healthSlider.value = currentHealth;
+		healthSlider.value = currentHealth;   
 	}
 
-	public void Heal (int amount) {
-		if ((currentHealth + amount) <= maxHealth) {
+	public void Heal (int amount)
+    {
+		if ((currentHealth + amount) <= maxHealth)
+        {
 			currentHealth += amount;
 			healthSlider.value = currentHealth;
 		}
 	}
 
-	public bool IsDead () {
+	public bool IsDead ()
+    {
 		return currentHealth <= 0;
 	}
 
@@ -40,18 +47,27 @@ public class PlayerHealth : MonoBehaviour {
 		this.TakeDamage (amount);
 	}
 
-	public void TakeDamage (int amount) {
+	public void TakeDamage (int amount)
+    {
 		currentHealth -= amount;
-		if (currentHealth <= 0) {
+        sourcehurt.Play();
+		if (currentHealth <= 0)
+        {
 			healthSlider.value = 0;
 			Die ();
 			return;
 		}
 		healthSlider.value = currentHealth;
 	}
-	
-	// Update is called once per frame
-	void Update () {
 
-	}
+    void Die()
+    {
+        sourceDeath.Play();
+    }
+   
+    // Update is called once per frame
+    void Update ()
+    {
+        
+    }   
 }
