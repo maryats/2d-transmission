@@ -19,9 +19,9 @@ public class BossHealth : MonoBehaviour {
         amIDeadYet();
 	}
 
-    void OnTriggerEnter(Collider col)
+    void OnTriggerEnter2D(Collider2D col)
     {
-        if(col.gameObject.tag == "Player Bullet")
+        if(col.gameObject.tag == "Player Bullets")
 
         {
             int bulletDamage = col.gameObject.GetComponent<Bullet>().damage;
