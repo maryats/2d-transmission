@@ -86,7 +86,6 @@ public void HandleJump()
             }
         }
      return false;
-    
     }
 
     private void ResetActions()

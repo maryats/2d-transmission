@@ -9,6 +9,8 @@ TagManager:
   - Hunter
   - Gatherer
   - Mob
+  - Boss Bullets
+  - Player Bullets
   layers:
   - Default
   - TransparentFX
