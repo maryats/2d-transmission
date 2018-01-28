@@ -30,7 +30,7 @@ public class Player : MonoBehaviour
     {
         jumptimecounter = jumptime;
         playercollider = GetComponent<Collider2D>();
-        obstaclecollider = GameObject.FindGameObjectWithTag("Obstacle").GetComponent<Collider2D>();
+        //obstaclecollider = GameObject.FindGameObjectWithTag("Obstacle").GetComponent<Collider2D>();
         
         anim = GetComponent<Animator>();
         anim.SetTrigger(idleHash);
@@ -97,13 +97,13 @@ public class Player : MonoBehaviour
         }
     }
 
-    public void Pickup()
+    /*public void Pickup()
     {
 
-    }
+    }*/
 
-    public void Transmit()
+   /* public void Transmit()
     {
 
-    }
+    }*/
 }
