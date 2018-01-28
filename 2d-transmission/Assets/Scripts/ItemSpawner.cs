@@ -9,7 +9,6 @@ public class ItemSpawner : MonoBehaviour
     public GameObject AttackUp;
     public int spawnRate;
 
-    private Vector2 location;
     private int timeTilNextSpawn;
 
     // Use this for initialization
@@ -17,11 +16,6 @@ public class ItemSpawner : MonoBehaviour
     {
         // Spawn an initial one
         SpawnItem();
-
-        // Get the location of this object instead of the duplicated object
-        float x = transform.position.x;
-        float y = transform.position.y;
-        location = new Vector2(x, y);
 
         // Sets the time until the next spawn equal to the spawn rate
         timeTilNextSpawn = spawnRate;
@@ -66,6 +60,6 @@ public class ItemSpawner : MonoBehaviour
         }
 
         // Spawn that sucker
-        Instantiate(ItemToSpawn, location, Quaternion.identity);
+        Instantiate(ItemToSpawn, transform);
     }
 }

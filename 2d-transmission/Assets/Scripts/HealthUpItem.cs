@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class HealthUpItem : MonoBehaviour {
 
-	public int destroySeconds = 10;
-	public int recoverAmount = 20;
+	public int destroySeconds;
+	public int recoverAmount;
 
 	// Use this for initialization
 	void Start () {
@@ -16,6 +16,8 @@ public class HealthUpItem : MonoBehaviour {
 	void Update () {
 		
 	}
-		
 
+	void onPickup() {
+		Destroy (this.gameObject);
+	}
 }

@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Right Edge
+  - Left Edge
+  - Hunter
+  - Gatherer
   layers:
   - Default
   - TransparentFX
@@ -13,8 +17,8 @@ TagManager:
   - UI
   - 
   - 
-  - Background
-  - Player
+  - Players
+  - Monsters
   - 
   - 
   - 
@@ -38,9 +42,6 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Background
-    uniqueID: 3266052215
-    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
