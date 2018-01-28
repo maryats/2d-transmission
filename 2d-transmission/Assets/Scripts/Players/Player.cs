@@ -41,18 +41,9 @@ public class Player : MonoBehaviour
     private void FixedUpdate()
     {
 
-        //float horizontal = Input.GetAxis("Horizontal");
-        //HandleMovement(horizontal);
-        //Flip(horizontal);
-        //isgrounded = IsGrounded();
-        //if (Input.GetKeyDown("space") && isgrounded)
-        //{
-        //    rb.AddForce(new Vector2(0, jumpforce));
-        //}
-
     }  
     
-	public void HandleJump()
+public void HandleJump()
     {
         rb.AddForce(new Vector2(0, jumpforce));
     }
@@ -60,7 +51,7 @@ public class Player : MonoBehaviour
    public void HandleMovement(float horizontal)
     {
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
-        anim.SetFloat("speed", Mathf.Abs( horizontal));
+        anim.SetFloat("speed",Mathf.Abs( horizontal));
     }
 
     public void Flip(float horizontal)
@@ -75,24 +66,27 @@ public class Player : MonoBehaviour
     }
 
     public bool IsGrounded()
-	{
-		if (rb.velocity.y < 0.00001) {
-			foreach (Transform point in groundPoints) {
-				Collider2D[] colliders = Physics2D.OverlapCircleAll (point.position, groundradius, whatisground);
-				for (int i = 0; i < colliders.Length; i++) {
-					if ((colliders [i]).gameObject != gameObject) {
-						return true;
-					}
-				}
-			}
-		}
-		return false;
-	}  
+    {
+        if (rb.velocity.y < 0.00001)
+        {
+            foreach (Transform point in groundPoints)
+            {
+                Collider2D[] colliders = Physics2D.OverlapCircleAll(point.position, groundradius, whatisground);
+                for (int i = 0; i < colliders.Length; i++)
+                {
+                    if ((colliders[i]).gameObject != gameObject)
+                    {
+                        return true;
+                    }
+                }
+            }
+        }
+     return false;
+    
+    }
 
-	public void OnCollisionEnter(Collision collision) {
-		// if colliding with enemy
-		if (collision.gameObject.tag == "Mob") {
-			playerHealth.TakeDamage(DAMAGE_AMOUNT);
-		}
-	}
+    public bool IsFacingRight()
+    {
+        return facingRight;
+    }
 }

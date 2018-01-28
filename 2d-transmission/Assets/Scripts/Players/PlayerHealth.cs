@@ -19,6 +19,7 @@ public class PlayerHealth : MonoBehaviour {
 	void Start () {
 		// Player starts at full health
 		currentHealth = startHealth;
+		currentHealth = startingHealth;
 
 		// Update health slider to reflect Player stats
 		healthSlider.maxValue = maxHealth;
