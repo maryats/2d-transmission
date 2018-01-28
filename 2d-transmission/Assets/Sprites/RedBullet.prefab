@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 50391774012815430}
   - component: {fileID: 58440308587418168}
   m_Layer: 8
-  m_Name: Boss Bullet
+  m_Name: RedBullet
   m_TagString: Boss Bullets
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
