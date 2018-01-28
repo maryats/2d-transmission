@@ -15,7 +15,6 @@ public class Bullet : MonoBehaviour {
 	void Update () {
 		
 	}
-		
 
 }
 
