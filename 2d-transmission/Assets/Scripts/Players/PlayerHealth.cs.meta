@@ -1,11 +1,15 @@
 fileFormatVersion: 2
 guid: 9e0858e68813c4fcfa943ef9727d384d
-timeCreated: 1517023969
+timeCreated: 1517157931
 licenseType: Free
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - healthSlider: {instanceID: 0}
+  - otherPlayerHealth: {instanceID: 0}
+  - playerhurt: {instanceID: 0}
+  - death: {fileID: 8300000, guid: fbb9e45ae2ba2554f9ea2e1ab96df439, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
