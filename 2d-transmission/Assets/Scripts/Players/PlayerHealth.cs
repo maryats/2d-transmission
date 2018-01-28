@@ -10,12 +10,13 @@ public class PlayerHealth : MonoBehaviour {
 	public int maxHealth = 100;
 	public Slider healthSlider;
 	public PlayerHealth otherPlayerHealth;
-    public AudioClip playerhurt;   
 
     [SerializeField]
     private AudioSource sourceDeath;
     [SerializeField]
     private AudioSource sourcehurt;
+	[SerializeField]
+	private AudioSource sourcetransfer;
     
 	// Use this for initialization
 	void Start ()
@@ -48,6 +49,7 @@ public class PlayerHealth : MonoBehaviour {
 	}
 
 	public void SendHealth (PlayerHealth otherPlayerHealth, int amount) {
+		sourcetransfer.Play();
 		otherPlayerHealth.Heal (amount);
 		this.TakeDamage (amount);
 	}
@@ -73,7 +75,8 @@ public class PlayerHealth : MonoBehaviour {
     // Update is called once per frame
     void Update ()
     {
-        
+		if (Input.GetKeyDown (KeyCode.Z))
+			sourceDeath.Play();
     }
 
     private void OnCollisionEnter2D(Collision2D collidor)
