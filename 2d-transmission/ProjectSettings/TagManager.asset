@@ -9,6 +9,7 @@ TagManager:
   - Hunter
   - Gatherer
   - HealthUp
+  - Bullet
   layers:
   - Default
   - TransparentFX

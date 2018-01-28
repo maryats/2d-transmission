@@ -5,9 +5,9 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public float jumpforce; // Force applied for jumping
-    
     public bool grounded; // Track if player is on ground
     public bool jump;
+	public int direction;
 
     [SerializeField]
     private Transform[] groundPoints; // used to check if the sprite is on ground
@@ -95,5 +95,6 @@ public void HandleJump()
      return false;
     
     }
+
    
 }

@@ -11,6 +11,9 @@ public class GameController : MonoBehaviour
     public Player hunter;
     public Player gatherer;
     public Text loseMessage;
+	public Bullet bulletPrefab;
+	int hunterDirection = 2; //1 is left  2 is right 
+	int gathererDirection = 2; //1 is left 2 is right
 
     private void Start()
     {
@@ -20,6 +23,40 @@ public class GameController : MonoBehaviour
 
     private void Update()
     {
+		if (Input.GetKeyDown (KeyCode.D)) {
+			this.gatherer.direction = 2;
+		}
+		if (Input.GetKeyDown (KeyCode.A)) {
+			this.gatherer.direction = 1;
+		}
+		if (Input.GetKeyDown (KeyCode.RightArrow)) {
+			this.hunter.direction = 2;
+		}
+		if (Input.GetKeyDown (KeyCode.LeftArrow)) {
+			this.hunter.direction = 1;
+		}
+		if(Input.GetKeyDown(KeyCode.LeftShift)) {
+			if (gatherer.direction == 2) {
+				bulletPrefab = Instantiate (bulletPrefab, gatherer.transform.position, transform.rotation) as Bullet;
+				bulletPrefab.transform.rotation = Quaternion.AngleAxis (90, Vector3.forward);
+				bulletPrefab.GetComponent<Rigidbody2D> ().AddForce (transform.right * bulletPrefab.speed);
+			} else {
+				bulletPrefab = Instantiate (bulletPrefab, gatherer.transform.position, transform.rotation) as Bullet;
+				bulletPrefab.transform.rotation = Quaternion.AngleAxis (-90, Vector3.forward);
+				bulletPrefab.GetComponent<Rigidbody2D> ().AddForce (transform.right * -bulletPrefab.speed);
+			}
+		}
+		if(Input.GetKeyDown(KeyCode.Comma)) {
+			if (hunter.direction == 2) {
+				bulletPrefab = Instantiate (bulletPrefab, hunter.transform.position, transform.rotation) as Bullet;
+				bulletPrefab.transform.rotation = Quaternion.AngleAxis (90, Vector3.forward);
+				bulletPrefab.GetComponent<Rigidbody2D> ().AddForce (transform.right * bulletPrefab.speed);
+			} else {
+				bulletPrefab = Instantiate (bulletPrefab, hunter.transform.position, transform.rotation) as Bullet;
+				bulletPrefab.transform.rotation = Quaternion.AngleAxis (-90, Vector3.forward);
+				bulletPrefab.GetComponent<Rigidbody2D> ().AddForce (transform.right * -bulletPrefab.speed);
+			}
+		}
         //if (hunterHealth.currentHealth <= 0
         //    || gathererHealth.currentHealth <= 0)
         //{
@@ -53,4 +90,5 @@ public class GameController : MonoBehaviour
                 hunter.HandleJump();
         }
     }
+		
 }

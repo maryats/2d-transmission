@@ -15,6 +15,14 @@ public class Bullet : MonoBehaviour {
 	void Update () {
 		
 	}
+
+	public int dealDamage() {
+		return this.damage;
+	}
+
+	void OnCollisionEnter2D(Collision2D col) {
+
+	}
 		
 
 }

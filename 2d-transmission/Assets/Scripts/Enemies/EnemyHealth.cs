@@ -6,7 +6,7 @@ public class EnemyHealth : MonoBehaviour {
 
 	public int maxHealth;
 
-	private int curHealth;
+	private int curHealth = 15;
 
 	// Use this for initialization
 	void Start () {
@@ -19,10 +19,13 @@ public class EnemyHealth : MonoBehaviour {
 	}
 
 	// If this enemy collides with a bullet, deal damage to this enemy and remove the bullet
-	void OnCollisionEnter (Collision collision) {
+	void OnCollisionEnter2D (Collision2D collision) {
 		if (collision.gameObject.CompareTag ("Bullet")) {
-//		TakeDamage (Bullet.dealDamage ()); TODO 
-			collision.gameObject.SetActive (false);
+			print ("Wow Im hit");
+			Bullet hitBullet = collision.gameObject.GetComponent<Bullet>();
+			TakeDamage (hitBullet.dealDamage()); 
+			this.TakeDamage(hitBullet.dealDamage());
+			Destroy (collision.gameObject);
 		}
 	}
 
