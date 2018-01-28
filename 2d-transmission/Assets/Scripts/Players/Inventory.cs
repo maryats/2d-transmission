@@ -15,7 +15,7 @@ public class Inventory : MonoBehaviour {
 			int cur = (currentItemIndex + i) % numItemSlots;
 			if (items[cur] == null)
             {
-                items[cur]= itemToAdd;
+                items[cur]= itemToAdd.GetComponent<AttackUpItem>();
 				itemSprites[cur] = itemToAdd.GetComponent<SpriteRenderer> ();
 				itemSprites[cur].enabled = true;
                 return;
