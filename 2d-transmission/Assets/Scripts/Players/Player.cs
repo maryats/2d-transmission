@@ -36,6 +36,7 @@ public class Player : MonoBehaviour
         anim = GetComponent<Animator>();
         anim.SetTrigger(idleHash);
         rb = GetComponent<Rigidbody2D>();
+        playerHealth = GetComponent<PlayerHealth>();
     }
 
     private void FixedUpdate()
@@ -44,10 +45,7 @@ public class Player : MonoBehaviour
         HandleJump();
         ResetActions();
     }  
-    
-<<<<<<< HEAD
-    public void HandleMovement(float horizontal)
-=======
+
 public void HandleJump()
     {
         if(grounded && jump)
@@ -55,7 +53,6 @@ public void HandleJump()
     }
 
    public void HandleMovement(float horizontal)
->>>>>>> bb82ab115a87b831b6fbae00d3b92171ce02321b
     {
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
         anim.SetFloat("speed",Mathf.Abs( horizontal));
