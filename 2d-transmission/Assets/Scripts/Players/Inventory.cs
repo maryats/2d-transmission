@@ -1,8 +1,12 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.UI;
 public class Inventory : MonoBehaviour {
 	
+<<<<<<< HEAD
 	public static int numItemSlots = 3;
+=======
+	public static int numItemSlots =3;
+>>>>>>> bb82ab115a87b831b6fbae00d3b92171ce02321b
 	SpriteRenderer[] itemSprites = new SpriteRenderer[numItemSlots];
 	public AttackUpItem[] items = new AttackUpItem[numItemSlots];
     private int currentItemIndex = 0;
@@ -15,7 +19,7 @@ public class Inventory : MonoBehaviour {
 			int cur = (currentItemIndex + i) % numItemSlots;
 			if (items[cur] == null)
             {
-                items[cur]= itemToAdd;
+                items[cur]= itemToAdd.GetComponent<AttackUpItem>();
 				itemSprites[cur] = itemToAdd.GetComponent<SpriteRenderer> ();
 				itemSprites[cur].enabled = true;
                 return;

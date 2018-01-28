@@ -8,6 +8,7 @@ TagManager:
   - Left Edge
   - Hunter
   - Gatherer
+  - Mob
   layers:
   - Default
   - TransparentFX

@@ -32,11 +32,23 @@ public class GameController : MonoBehaviour
         float horizontalGatherer = Input.GetAxis("HorizontalGatherer");
         float horizontalHunter = Input.GetAxis("HorizontalHunter");
 
+
         hunter.HandleMovement(horizontalHunter);
         hunter.Flip(horizontalHunter);
 
         gatherer.HandleMovement(horizontalGatherer);
         gatherer.Flip(horizontalGatherer);
 
+        bool isgrounded = gatherer.IsGrounded();
+        if (Input.GetKeyDown(KeyCode.W) && isgrounded)
+        {
+            gatherer.HandleJump();
+        }
+
+        isgrounded = hunter.IsGrounded();
+        if (Input.GetKeyDown(KeyCode.UpArrow) && isgrounded)
+        {
+            hunter.HandleJump();
+        }
     }
 }

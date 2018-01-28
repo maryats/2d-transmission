@@ -19,6 +19,9 @@ public class Player : MonoBehaviour
     private LayerMask whatisground;
     private bool isgrounded;
 
+	public PlayerHealth playerHealth;
+	private const int DAMAGE_AMOUNT = 5;
+
     Rigidbody2D rb;
     Animator anim;
     int runHash = Animator.StringToHash("Run");
@@ -30,31 +33,29 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
-             
         anim = GetComponent<Animator>();
         anim.SetTrigger(idleHash);
         rb = GetComponent<Rigidbody2D>();
     }
 
     private void FixedUpdate()
-    {       
+    {
 
-    float horizontal = Input.GetAxis("Horizontal");
-        HandleMovement(horizontal);
-        Flip(horizontal);
-        isgrounded = IsGrounded();
-        if (Input.GetKeyDown("space")&&isgrounded)
-        {
-            //jump = true;
-            rb.AddForce(new Vector2(0, jumpforce));
-        }
-       
     }  
     
+<<<<<<< HEAD
     public void HandleMovement(float horizontal)
+=======
+public void HandleJump()
     {
-            rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
-        anim.SetFloat("speed",Mathf.Abs( horizontal));       
+        rb.AddForce(new Vector2(0, jumpforce));
+    }
+
+   public void HandleMovement(float horizontal)
+>>>>>>> bb82ab115a87b831b6fbae00d3b92171ce02321b
+    {
+        rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+        anim.SetFloat("speed",Mathf.Abs( horizontal));
     }
 
     public void Flip(float horizontal)
@@ -68,9 +69,9 @@ public class Player : MonoBehaviour
         }
     }
 
-    private bool IsGrounded()
+    public bool IsGrounded()
     {
-        if (rb.velocity.y <= 0)
+        if (rb.velocity.y < 0.00001)
         {
             foreach (Transform point in groundPoints)
             {
@@ -87,5 +88,9 @@ public class Player : MonoBehaviour
      return false;
     
     }
-   
+
+    public bool IsFacingRight()
+    {
+        return facingRight;
+    }
 }
