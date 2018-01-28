@@ -1,10 +1,9 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Shoot : MonoBehaviour
 {
-
     public Bullet bulletPrefab;
     public Player player;
     private string playerTag;
@@ -30,12 +29,10 @@ public class Shoot : MonoBehaviour
         {
             shoot();
         }
-
     }
 
     void shoot()
     {
-
         // Create the Bullet from the Bullet Prefab
         Bullet bullet = Instantiate(
             bulletPrefab,
@@ -57,6 +54,4 @@ public class Shoot : MonoBehaviour
         // Destroy the bullet after 2 seconds
         Destroy(bullet.gameObject, 2.0f);
     }
-
 }
-
