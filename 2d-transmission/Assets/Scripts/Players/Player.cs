@@ -51,7 +51,7 @@ public class Player : MonoBehaviour
        
     }  
     
-    void HandleMovement(float horizontal)
+    public void HandleMovement(float horizontal)
     {
             rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
         anim.SetFloat("speed",Mathf.Abs( horizontal));       
