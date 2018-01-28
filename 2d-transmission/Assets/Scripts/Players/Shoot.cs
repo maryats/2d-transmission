@@ -39,11 +39,7 @@ public class Shoot : MonoBehaviour {
 				this.transform.position,
 				this.transform.rotation);
 
-<<<<<<< HEAD
 			// bullet.updateDamage (playerDamage + bulletDamage);
-=======
-			//bullet.updateDamage (playerDamage + bulletDamage);
->>>>>>> clanrence2
 
 			// Add velocity to the bullet
 			if (this.direction == 1) {
