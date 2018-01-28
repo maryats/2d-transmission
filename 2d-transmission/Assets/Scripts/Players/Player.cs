@@ -37,24 +37,19 @@ public class Player : MonoBehaviour
     }
 
     private void FixedUpdate()
-    {       
+    {
 
-    float horizontal = Input.GetAxis("Horizontal");
-        HandleMovement(horizontal);
-        Flip(horizontal);
-        isgrounded = IsGrounded();
-        if (Input.GetKeyDown("space")&&isgrounded)
-        {
-            //jump = true;
-            rb.AddForce(new Vector2(0, jumpforce));
-        }
-       
     }  
     
-    void HandleMovement(float horizontal)
+public void HandleJump()
     {
-            rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
-        anim.SetFloat("speed",Mathf.Abs( horizontal));       
+        rb.AddForce(new Vector2(0, jumpforce));
+    }
+
+   public void HandleMovement(float horizontal)
+    {
+        rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+        anim.SetFloat("speed",Mathf.Abs( horizontal));
     }
 
     public void Flip(float horizontal)
@@ -68,9 +63,9 @@ public class Player : MonoBehaviour
         }
     }
 
-    private bool IsGrounded()
+    public bool IsGrounded()
     {
-        if (rb.velocity.y <= 0)
+        if (rb.velocity.y < 0.00001)
         {
             foreach (Transform point in groundPoints)
             {
@@ -86,6 +81,11 @@ public class Player : MonoBehaviour
         }
      return false;
     
+    }
+
+    public bool IsFacingRight()
+    {
+        return facingRight;
     }
    
 }
