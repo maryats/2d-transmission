@@ -6,28 +6,36 @@ using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
-    public PlayerHealth hunterHealth;
-    public PlayerHealth gathererHealth;
-    public Player hunter;
-    public Player gatherer;
-    public Text loseMessage;
+    //public PlayerHealth hunterHealth;
+    //public PlayerHealth gathererHealth;
+    private Player hunter;
+    private Player gatherer;
+
+    bool gameEnded;
+
+    [SerializeField]
+    GameObject promptLose;
+
+    [SerializeField]
+    GameObject promptWin;
 
     private void Start()
     {
         hunter = GameObject.FindGameObjectWithTag("Hunter").GetComponent<Player>();
         gatherer = GameObject.FindGameObjectWithTag("Gatherer").GetComponent<Player>();
-        //hunterHealth = hunter.playerHealth;
-        //gathererHealth = gatherer.playerHealth;
     }
 
     private void Update()
     {
-        //if (hunterHealth.currentHealth <= 0
-        //    || gathererHealth.currentHealth <= 0)
-        //{
-        //    loseMessage.gameObject.SetActive(true);
-        //}
-        if(Input.GetKeyDown(KeyCode.W))
+        // Lose?
+        if (hunter.playerHealth.currentHealth <= 0
+            || gatherer.playerHealth.currentHealth <= 0)
+        {
+            promptLose.SetActive(true);
+            gameEnded = true;
+        }
+
+        if (Input.GetKeyDown(KeyCode.W))
         {
             gatherer.jump = true;
         }
@@ -42,6 +50,12 @@ public class GameController : MonoBehaviour
         if (Input.GetKey(KeyCode.DownArrow))
         {
             hunter.playerHealth.SendHealth(gatherer.playerHealth, 1);
+        }
+
+        // Go back to main menu
+        if(gameEnded && Input.anyKeyDown)
+        {
+            SceneManager.LoadScene("Menu");
         }
     }
 
