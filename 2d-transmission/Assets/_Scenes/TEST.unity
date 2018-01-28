@@ -1856,6 +1856,34 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.02, y: 0.04}
   m_EdgeRadius: 0
+--- !u!1 &802690459
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 802690460}
+  m_Layer: 8
+  m_Name: GroundPoint (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &802690460
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 802690459}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.097, y: -0.24799992, z: 0}
+  m_LocalScale: {x: 1.0000001, y: 1.0000029, z: 0.9999973}
+  m_Children: []
+  m_Father: {fileID: 1623021604}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &833321962
 Prefab:
   m_ObjectHideFlags: 0
@@ -3018,6 +3046,34 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1262581846
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1262581847}
+  m_Layer: 8
+  m_Name: GroundPoint (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1262581847
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1262581846}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.10000006, y: -0.23899996, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1430552028}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1305340686
 Prefab:
   m_ObjectHideFlags: 0
@@ -3086,6 +3142,34 @@ Transform:
   m_PrefabParentObject: {fileID: 4982975485661786, guid: 71f7abf9ac7f59e49a55fd940bb1d251,
     type: 2}
   m_PrefabInternal: {fileID: 1305340686}
+--- !u!1 &1349941098
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1349941099}
+  m_Layer: 8
+  m_Name: GroundPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1349941099
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1349941098}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.109, y: -0.248, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1623021604}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1429743428
 Prefab:
   m_ObjectHideFlags: 0
@@ -3226,14 +3310,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 469c0ea7cd4bf0c4797b9e5ae3392ffe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpforce: 0
-  jumptime: 0
-  jumptimecounter: 0
+  jumpforce: 400
   grounded: 0
-  stopjump: 0
-  playercollider: {fileID: 0}
-  obstaclecollider: {fileID: 0}
-  groundPoints: []
+  jump: 1
+  groundPoints:
+  - {fileID: 1791910903}
+  - {fileID: 1778640979}
+  - {fileID: 1262581847}
+  groundradius: 0.2
+  whatisground:
+    serializedVersion: 2
+    m_Bits: 4294967295
   speed: 6
 --- !u!95 &1430552026
 Animator:
@@ -3305,7 +3392,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.53, y: 2.06, z: -0.004}
   m_LocalScale: {x: 1.4587296, y: 0.9877872, z: 0.4330111}
-  m_Children: []
+  m_Children:
+  - {fileID: 1791910903}
+  - {fileID: 1778640979}
+  - {fileID: 1262581847}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3883,7 +3973,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.66, y: -1.35, z: -0.004}
   m_LocalScale: {x: 1.4587299, y: 0.9877872, z: 0.4330111}
-  m_Children: []
+  m_Children:
+  - {fileID: 1349941099}
+  - {fileID: 1864063999}
+  - {fileID: 802690460}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3898,14 +3991,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 469c0ea7cd4bf0c4797b9e5ae3392ffe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpforce: 0
-  jumptime: 0
-  jumptimecounter: 0
+  jumpforce: 400
   grounded: 0
-  stopjump: 0
-  playercollider: {fileID: 0}
-  obstaclecollider: {fileID: 0}
-  groundPoints: []
+  jump: 0
+  groundPoints:
+  - {fileID: 1349941099}
+  - {fileID: 1864063999}
+  - {fileID: 802690460}
+  groundradius: 0.2
+  whatisground:
+    serializedVersion: 2
+    m_Bits: 4294967295
   speed: 6
 --- !u!61 &1623021606
 BoxCollider2D:
@@ -4321,6 +4417,62 @@ Transform:
   m_PrefabParentObject: {fileID: 4982975485661786, guid: 71f7abf9ac7f59e49a55fd940bb1d251,
     type: 2}
   m_PrefabInternal: {fileID: 1758525370}
+--- !u!1 &1778640978
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1778640979}
+  m_Layer: 8
+  m_Name: GroundPoint (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1778640979
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1778640978}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.012999974, y: -0.23899996, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1430552028}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791910902
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791910903}
+  m_Layer: 8
+  m_Name: GroundPoint (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1791910903
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1791910902}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.106, y: -0.239, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1430552028}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1840688071
 Prefab:
   m_ObjectHideFlags: 0
@@ -4434,6 +4586,34 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.02, y: 0.04}
   m_EdgeRadius: 0
+--- !u!1 &1864063998
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1864063999}
+  m_Layer: 8
+  m_Name: GroundPoint (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1864063999
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1864063998}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.016, y: -0.248, z: 0}
+  m_LocalScale: {x: 1.0000001, y: 1.0000029, z: 0.9999973}
+  m_Children: []
+  m_Father: {fileID: 1623021604}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1868224066
 GameObject:
   m_ObjectHideFlags: 0
