@@ -6,9 +6,9 @@ public class ItemSpawner : MonoBehaviour {
 
 	public GameObject HealthUp;
 	public GameObject AttackUp;
-	public int spawnRate;
+	public float spawnRate;
 
-	private int timeTilNextSpawn;
+	private float timeTilNextSpawn;
 
 	// Use this for initialization
 	void Start () {
@@ -21,7 +21,7 @@ public class ItemSpawner : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		timeTilNextSpawn--;
+		timeTilNextSpawn -= Time.deltaTime;
 
 		// Spawn a new item if there has been a delay equal to or greater than spawnRate
 		if (timeTilNextSpawn <= 0) {
@@ -51,6 +51,9 @@ public class ItemSpawner : MonoBehaviour {
 		}
 
 		// Spawn that sucker
-		Instantiate (ItemToSpawn, transform);
+		var powerup = Instantiate (ItemToSpawn, gameObject.transform.position, Quaternion.identity);
+		if (powerup.CompareTag ("HealthUp")) {
+			HealthUpItem.startDying (powerup);
+		}
 	}
 }

@@ -8,6 +8,7 @@ TagManager:
   - Left Edge
   - Hunter
   - Gatherer
+  - HealthUp
   layers:
   - Default
   - TransparentFX
