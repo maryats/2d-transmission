@@ -1,4 +1,4 @@
-using UnityEngine;
+/*using UnityEngine;
 using UnityEngine.UI;
 
 public class Inventory : MonoBehaviour {
@@ -69,4 +69,4 @@ public class Inventory : MonoBehaviour {
         }
         return counter == numItemSlots;
     }
-}*/
+} */
