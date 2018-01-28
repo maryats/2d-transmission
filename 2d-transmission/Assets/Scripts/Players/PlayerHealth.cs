@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour {
 
-	public int startingHealth = 100;
+	public int startHealth = 100;
 	public int currentHealth;
 	public int maxHealth = 100;
 	public Slider healthSlider;
@@ -18,7 +18,7 @@ public class PlayerHealth : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		// Player starts at full health
-		currentHealth = startingHealth;
+		currentHealth = startHealth;
 
 		// Update health slider to reflect Player stats
 		healthSlider.maxValue = maxHealth;
