@@ -367,7 +367,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   recoverAmount: 20
   gathererHealth: {fileID: 0}
-  spawnTime: 0
 --- !u!1 &55159129
 GameObject:
   m_ObjectHideFlags: 0
@@ -1512,7 +1511,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ba31f9e40b78459a9e53aa556f3f67b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 0
 --- !u!114 &222449874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1526,6 +1524,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: 0.01
   runForwards: 1
+  bulletStats: {fileID: 0}
+  spawnTime: 3
+  intSpawn: 1
 --- !u!61 &222449875
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2189,7 +2190,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ba31f9e40b78459a9e53aa556f3f67b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 0
 --- !u!114 &364699332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2203,6 +2203,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: 0.01
   runForwards: 1
+  bulletStats: {fileID: 0}
+  spawnTime: 3
+  intSpawn: 1
 --- !u!61 &364699333
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2802,7 +2805,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ba31f9e40b78459a9e53aa556f3f67b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 0
 --- !u!114 &402109032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2816,6 +2818,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: 0.01
   runForwards: 1
+  bulletStats: {fileID: 0}
+  spawnTime: 3
+  intSpawn: 1
 --- !u!95 &402109033
 Animator:
   serializedVersion: 3
@@ -3397,7 +3402,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ba31f9e40b78459a9e53aa556f3f67b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 0
 --- !u!114 &488813495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3411,6 +3415,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: 0.01
   runForwards: 1
+  bulletStats: {fileID: 0}
+  spawnTime: 3
+  intSpawn: 1
 --- !u!61 &488813496
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4298,7 +4305,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ba31f9e40b78459a9e53aa556f3f67b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 0
 --- !u!114 &573987021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4312,6 +4318,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: 0.01
   runForwards: 1
+  bulletStats: {fileID: 0}
+  spawnTime: 3
+  intSpawn: 1
 --- !u!61 &573987022
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4648,6 +4657,10 @@ MonoBehaviour:
   currentHealth: 0
   maxHealth: 100
   healthSlider: {fileID: 0}
+  otherPlayerHealth: {fileID: 0}
+  playerhurt: {fileID: 0}
+  sourceDeath: {fileID: 0}
+  sourcehurt: {fileID: 0}
 --- !u!114 &594831117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4659,9 +4672,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db0c4bdb514b4644ba1d06097cef5ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 114540087678159670, guid: 1890338b38f13db4c92494d9fab036da,
+  bulletPrefab: {fileID: 114415447074857916, guid: 5c2e7a58d3ad7d546abc5d3a5ae6b018,
     type: 2}
   player: {fileID: 594831112}
+  ShootHunter: {fileID: 0}
+  ShootGatherer: {fileID: 0}
 --- !u!1001 &608191852
 Prefab:
   m_ObjectHideFlags: 0
@@ -5229,7 +5244,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ba31f9e40b78459a9e53aa556f3f67b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 0
 --- !u!114 &689514935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5243,6 +5257,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: 0.01
   runForwards: 1
+  bulletStats: {fileID: 0}
+  spawnTime: 3
+  intSpawn: 1
 --- !u!61 &689514936
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5625,6 +5642,7 @@ GameObject:
   - component: {fileID: 715586381}
   - component: {fileID: 715586380}
   - component: {fileID: 715586384}
+  - component: {fileID: 715586385}
   - component: {fileID: 715586379}
   m_Layer: 0
   m_Name: bossTest
@@ -5650,6 +5668,8 @@ MonoBehaviour:
   fmode: 0
   pathIsEnded: 0
   nextWayPointDistance: 3
+  bullprefab: {fileID: 114194040079329050, guid: afb1291dc79899d418a69c0ccc57297d,
+    type: 2}
 --- !u!50 &715586380
 Rigidbody2D:
   serializedVersion: 4
@@ -5777,6 +5797,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.95, y: 1.84}
   m_EdgeRadius: 0
+--- !u!114 &715586385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 715586378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4896f90d166e7534a8a9e69923cbe0f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 200
+  currentHealth: 200
 --- !u!4 &716062260 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4653402727981398, guid: 711d496a12cb45d469413554c57b1b69,
@@ -6788,7 +6821,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ba31f9e40b78459a9e53aa556f3f67b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 0
 --- !u!114 &881389171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6802,6 +6834,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: 0.01
   runForwards: 1
+  bulletStats: {fileID: 0}
+  spawnTime: 3
+  intSpawn: 1
 --- !u!95 &881389172
 Animator:
   serializedVersion: 3
@@ -8865,6 +8900,48 @@ Transform:
   m_PrefabParentObject: {fileID: 4982975485661786, guid: 71f7abf9ac7f59e49a55fd940bb1d251,
     type: 2}
   m_PrefabInternal: {fileID: 1255094585}
+--- !u!1001 &1259127122
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4035114459983982, guid: afb1291dc79899d418a69c0ccc57297d, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4035114459983982, guid: afb1291dc79899d418a69c0ccc57297d, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 4035114459983982, guid: afb1291dc79899d418a69c0ccc57297d, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.20290218
+      objectReference: {fileID: 0}
+    - target: {fileID: 4035114459983982, guid: afb1291dc79899d418a69c0ccc57297d, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4035114459983982, guid: afb1291dc79899d418a69c0ccc57297d, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4035114459983982, guid: afb1291dc79899d418a69c0ccc57297d, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4035114459983982, guid: afb1291dc79899d418a69c0ccc57297d, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4035114459983982, guid: afb1291dc79899d418a69c0ccc57297d, type: 2}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: afb1291dc79899d418a69c0ccc57297d, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &1266936592
 Prefab:
   m_ObjectHideFlags: 0
@@ -9830,7 +9907,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ba31f9e40b78459a9e53aa556f3f67b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 0
 --- !u!114 &1419003378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9844,6 +9920,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: 0.01
   runForwards: 1
+  bulletStats: {fileID: 0}
+  spawnTime: 3
+  intSpawn: 1
 --- !u!95 &1419003379
 Animator:
   serializedVersion: 3
@@ -10053,6 +10132,48 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
+--- !u!1001 &1423564207
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4975703462635918, guid: 8f1172df9c9590d4fa37d84016d07a93, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4975703462635918, guid: 8f1172df9c9590d4fa37d84016d07a93, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 4975703462635918, guid: 8f1172df9c9590d4fa37d84016d07a93, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.20290218
+      objectReference: {fileID: 0}
+    - target: {fileID: 4975703462635918, guid: 8f1172df9c9590d4fa37d84016d07a93, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4975703462635918, guid: 8f1172df9c9590d4fa37d84016d07a93, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4975703462635918, guid: 8f1172df9c9590d4fa37d84016d07a93, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4975703462635918, guid: 8f1172df9c9590d4fa37d84016d07a93, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4975703462635918, guid: 8f1172df9c9590d4fa37d84016d07a93, type: 2}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 8f1172df9c9590d4fa37d84016d07a93, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1424090202
 GameObject:
   m_ObjectHideFlags: 0
@@ -10577,7 +10698,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   recoverAmount: 20
   gathererHealth: {fileID: 0}
-  spawnTime: 0
 --- !u!61 &1485325815
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11076,7 +11196,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ba31f9e40b78459a9e53aa556f3f67b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 0
 --- !u!114 &1525252266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11090,6 +11209,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: 0.01
   runForwards: 1
+  bulletStats: {fileID: 0}
+  spawnTime: 3
+  intSpawn: 1
 --- !u!95 &1525252267
 Animator:
   serializedVersion: 3
@@ -11939,7 +12061,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ba31f9e40b78459a9e53aa556f3f67b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 0
 --- !u!114 &1631206981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11953,6 +12074,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: 0.01
   runForwards: 1
+  bulletStats: {fileID: 0}
+  spawnTime: 3
+  intSpawn: 1
 --- !u!95 &1631206982
 Animator:
   serializedVersion: 3
@@ -12063,6 +12187,48 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1001 &1632156970
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4052889158777548, guid: 5c2e7a58d3ad7d546abc5d3a5ae6b018, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4052889158777548, guid: 5c2e7a58d3ad7d546abc5d3a5ae6b018, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 4052889158777548, guid: 5c2e7a58d3ad7d546abc5d3a5ae6b018, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.20290218
+      objectReference: {fileID: 0}
+    - target: {fileID: 4052889158777548, guid: 5c2e7a58d3ad7d546abc5d3a5ae6b018, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4052889158777548, guid: 5c2e7a58d3ad7d546abc5d3a5ae6b018, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4052889158777548, guid: 5c2e7a58d3ad7d546abc5d3a5ae6b018, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4052889158777548, guid: 5c2e7a58d3ad7d546abc5d3a5ae6b018, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4052889158777548, guid: 5c2e7a58d3ad7d546abc5d3a5ae6b018, type: 2}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 5c2e7a58d3ad7d546abc5d3a5ae6b018, type: 2}
+  m_IsPrefabParent: 0
 --- !u!4 &1634543788 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4653402727981398, guid: 711d496a12cb45d469413554c57b1b69,
@@ -12580,7 +12746,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ba31f9e40b78459a9e53aa556f3f67b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 0
 --- !u!114 &1682573495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12594,6 +12759,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: 0.05
   runForwards: 1
+  bulletStats: {fileID: 0}
+  spawnTime: 3
+  intSpawn: 1
 --- !u!61 &1682573496
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14009,6 +14177,10 @@ MonoBehaviour:
   currentHealth: 0
   maxHealth: 100
   healthSlider: {fileID: 0}
+  otherPlayerHealth: {fileID: 0}
+  playerhurt: {fileID: 0}
+  sourceDeath: {fileID: 0}
+  sourcehurt: {fileID: 0}
 --- !u!114 &1885336798
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14020,9 +14192,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db0c4bdb514b4644ba1d06097cef5ea4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 114433378417737778, guid: aef810ccd6a196441913632b0dc8716c,
+  bulletPrefab: {fileID: 114761471173144072, guid: 8f1172df9c9590d4fa37d84016d07a93,
     type: 2}
   player: {fileID: 1885336793}
+  ShootHunter: {fileID: 0}
+  ShootGatherer: {fileID: 0}
 --- !u!1 &1903458006
 GameObject:
   m_ObjectHideFlags: 0
@@ -15221,7 +15395,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ba31f9e40b78459a9e53aa556f3f67b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 0
 --- !u!114 &2009099892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15235,6 +15408,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: 0.01
   runForwards: 1
+  bulletStats: {fileID: 0}
+  spawnTime: 3
+  intSpawn: 1
 --- !u!95 &2009099893
 Animator:
   serializedVersion: 3
@@ -16239,7 +16415,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ba31f9e40b78459a9e53aa556f3f67b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 0
 --- !u!114 &2122044796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16253,6 +16428,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: 0.01
   runForwards: 1
+  bulletStats: {fileID: 0}
+  spawnTime: 3
+  intSpawn: 1
 --- !u!61 &2122044797
 BoxCollider2D:
   m_ObjectHideFlags: 0

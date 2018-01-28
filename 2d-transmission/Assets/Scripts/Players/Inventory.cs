@@ -65,3 +65,4 @@ public class Inventory : MonoBehaviour {
 		return counter == numItemSlots;
 	}
 }*/
+
