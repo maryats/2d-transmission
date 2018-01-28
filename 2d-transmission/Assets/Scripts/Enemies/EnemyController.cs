@@ -23,11 +23,11 @@ public class EnemyController : MonoBehaviour {
 
         if (runForwards)
         {
-            mySpriteRenderer.flipX = true;
+            mySpriteRenderer.flipX = false;
         }
         else
         {
-            mySpriteRenderer.flipX = false;
+            mySpriteRenderer.flipX = true;
         }
     }
 

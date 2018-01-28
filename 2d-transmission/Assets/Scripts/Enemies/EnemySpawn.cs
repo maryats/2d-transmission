@@ -20,11 +20,7 @@ public class EnemySpawn : MonoBehaviour
     }
     void SpawnEnemy()
     {
-        if (gameObject.activeSelf == true)
-        {
-            return;
-        }
-        else
+        if (!gameObject.activeSelf)
         {
             gameObject.SetActive(true);
             Debug.Log("Spawned");
@@ -39,6 +35,13 @@ public class EnemySpawn : MonoBehaviour
             Invoke("SpawnEnemy", spawnTime);
             Debug.Log("Spawning in 3");
         }
+    }
+
+    IEnumerator  Spawn()
+    {
+        yield return new WaitForSeconds(intSpawn);
+
+        SpawnEnemy();
     }
 }
 
