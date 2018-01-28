@@ -1,14 +1,13 @@
 using UnityEngine;
 using UnityEngine.UI;
 public class Inventory : MonoBehaviour {
-	
-	public static int numItemSlots =3;
+	public static int numItemSlots = 3;
 	SpriteRenderer[] itemSprites = new SpriteRenderer[numItemSlots];
 	public AttackUpItem[] items = new AttackUpItem[numItemSlots];
     private int currentItemIndex = 0;
 
 	// Add an item to the player's inventory if it is not full
-	public void AddItem(GameObject itemToAdd)
+	public void AddItem(AttackUpItem itemToAdd)
     {
 		for (int i = 0; i < numItemSlots; i++)
         {

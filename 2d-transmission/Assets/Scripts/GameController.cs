@@ -16,6 +16,8 @@ public class GameController : MonoBehaviour
     {
         hunter = GameObject.FindGameObjectWithTag("Hunter").GetComponent<Player>();
         gatherer = GameObject.FindGameObjectWithTag("Gatherer").GetComponent<Player>();
+        //hunterHealth = hunter.playerHealth;
+        //gathererHealth = gatherer.playerHealth;
     }
 
     private void Update()
@@ -32,6 +34,14 @@ public class GameController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             hunter.jump = true;
+        }
+        if(Input.GetKey(KeyCode.S))
+        {
+            gatherer.playerHealth.SendHealth(hunter.playerHealth, 1);
+        }
+        if (Input.GetKey(KeyCode.DownArrow))
+        {
+            hunter.playerHealth.SendHealth(gatherer.playerHealth, 1);
         }
     }
 

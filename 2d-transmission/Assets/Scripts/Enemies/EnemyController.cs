@@ -49,7 +49,7 @@ public class EnemyController : MonoBehaviour {
         
     }
 
-    void WallCollisionHandler(Collider2D collider)
+    void CollisionHandler(Collider2D collider)
     {
         if (collider.tag == "Right Edge")
         {
@@ -71,6 +71,6 @@ public class EnemyController : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D collider)
     {
-        WallCollisionHandler(collider);
+        CollisionHandler(collider);
     }
 }

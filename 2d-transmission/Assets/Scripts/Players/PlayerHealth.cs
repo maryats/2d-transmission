@@ -42,9 +42,9 @@ public class PlayerHealth : MonoBehaviour {
 		return currentHealth <= 0;
 	}
 
-	public void SendHealth (int amount)
-    {
+	public void SendHealth (PlayerHealth otherPlayerHealth, int amount) {
 		otherPlayerHealth.Heal (amount);
+		this.TakeDamage (amount);
 	}
 
 	public void TakeDamage (int amount)
