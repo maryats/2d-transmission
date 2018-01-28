@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
     public float jumpforce; // Force applied for jumping
     
     public bool grounded; // Track if player is on ground
-    public bool jump;
+    public bool jump = false;
 
     [SerializeField]
     private Transform[] groundPoints; // used to check if the sprite is on ground
@@ -19,8 +19,8 @@ public class Player : MonoBehaviour
     private LayerMask whatisground;
     private bool isgrounded;
 
-	public PlayerHealth playerHealth;
-	private const int DAMAGE_AMOUNT = 5;
+ 	  public PlayerHealth playerHealth;
+	  private const int DAMAGE_AMOUNT = 5;
 
     Rigidbody2D rb;
     Animator anim;
@@ -40,12 +40,15 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
-
+        grounded = IsGrounded();
+        HandleJump();
+        ResetActions();
     }  
     
 public void HandleJump()
     {
-        rb.AddForce(new Vector2(0, jumpforce));
+        if(grounded && jump)
+            rb.AddForce(new Vector2(0, jumpforce));
     }
 
    public void HandleMovement(float horizontal)
@@ -85,6 +88,11 @@ public void HandleJump()
     
     }
 
+    private void ResetActions()
+    {
+        jump = false;
+    }
+    
     public bool IsFacingRight()
     {
         return facingRight;
