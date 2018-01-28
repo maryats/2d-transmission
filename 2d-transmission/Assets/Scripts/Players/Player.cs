@@ -24,9 +24,9 @@ public class Player : MonoBehaviour
 
     Rigidbody2D rb;
     Animator anim;
-    int runHash = Animator.StringToHash("Run");
-    int idleHash = Animator.StringToHash("Idle");
-    int stateHash = Animator.StringToHash("State");
+    //int runHash = Animator.StringToHash("Run");
+    //int idleHash = Animator.StringToHash("Idle");
+    //int stateHash = Animator.StringToHash("State");
     bool facingRight = true;
 
    public float speed = 1;
@@ -34,7 +34,7 @@ public class Player : MonoBehaviour
     private void Start()
     {
         anim = GetComponent<Animator>();
-        anim.SetTrigger(idleHash);
+        //anim.SetTrigger(idleHash);
         rb = GetComponent<Rigidbody2D>();
         playerHealth = GetComponent<PlayerHealth>();
     }
@@ -49,7 +49,11 @@ public class Player : MonoBehaviour
 public void HandleJump()
     {
         if(grounded && jump)
+        {
             rb.AddForce(new Vector2(0, jumpforce));
+            anim.SetTrigger("jump");
+
+        }
     }
 
    public void HandleMovement(float horizontal)
