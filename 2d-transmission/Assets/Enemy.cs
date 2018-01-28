@@ -2,19 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bullet : MonoBehaviour {
-
-	public int speed;
-	public int damage;
+public class Enemy : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		
 	}
-
+	
 	// Update is called once per frame
 	void Update () {
 		
 	}
-
 }
-

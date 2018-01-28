@@ -43,7 +43,7 @@ public class Player : MonoBehaviour
         grounded = IsGrounded();
         HandleJump();
         ResetActions();
-    }
+	}
 
 public void HandleJump()
     {
@@ -85,7 +85,6 @@ public void HandleJump()
             }
         }
      return false;
-    
     }
 
     private void ResetActions()

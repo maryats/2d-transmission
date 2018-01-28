@@ -31,9 +31,9 @@ public class HealthUpItem : MonoBehaviour {
         {
 
             gathererHealth.Heal(recoverAmount);
-            gameObject.SetActive(false);
+            this.gameObject.SetActive(false);
 
-            if (gameObject.activeSelf == false)
+            if (this.gameObject.activeSelf == false)
             {
                 Debug.Log("Item Destroyed");
                 Invoke("SpawnItem", spawnTime);
@@ -45,6 +45,6 @@ public class HealthUpItem : MonoBehaviour {
     void SpawnItem()
     {
         Debug.Log("Item Spawned");
-        gameObject.SetActive(true);
+        this.gameObject.SetActive(true);
     }
 }
