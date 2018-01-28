@@ -36,6 +36,7 @@ public class Player : MonoBehaviour
         anim = GetComponent<Animator>();
         anim.SetTrigger(idleHash);
         rb = GetComponent<Rigidbody2D>();
+        playerHealth = GetComponent<PlayerHealth>();
     }
 
     private void FixedUpdate()
