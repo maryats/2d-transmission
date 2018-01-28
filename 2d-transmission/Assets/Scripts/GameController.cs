@@ -25,6 +25,14 @@ public class GameController : MonoBehaviour
         //{
         //    loseMessage.gameObject.SetActive(true);
         //}
+        if(Input.GetKeyDown(KeyCode.W))
+        {
+            gatherer.jump = true;
+        }
+        if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            hunter.jump = true;
+        }
     }
 
     private void FixedUpdate()
@@ -39,16 +47,16 @@ public class GameController : MonoBehaviour
         gatherer.HandleMovement(horizontalGatherer);
         gatherer.Flip(horizontalGatherer);
 
-        bool isgrounded = gatherer.IsGrounded();
-        if (Input.GetKeyDown(KeyCode.W) && isgrounded)
-        {
-            gatherer.HandleJump();
-        }
+        //bool isgrounded = gatherer.IsGrounded();
+        //if (Input.GetKeyDown(KeyCode.W) && isgrounded)
+        //{
+        //    gatherer.HandleJump();
+        //}
 
-        isgrounded = hunter.IsGrounded();
-        if (Input.GetKeyDown(KeyCode.UpArrow) && isgrounded)
-        {
-            hunter.HandleJump();
-        }
+        //isgrounded = hunter.IsGrounded();
+        //if (Input.GetKeyDown(KeyCode.UpArrow) && isgrounded)
+        //{
+        //    hunter.HandleJump();
+        //}
     }
 }
