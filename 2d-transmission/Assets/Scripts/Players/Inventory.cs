@@ -2,21 +2,22 @@
 using UnityEngine.UI;
 public class Inventory : MonoBehaviour {
 	
-	public const int numItemSlots = 10;
+	public static int numItemSlots =3;
 	SpriteRenderer[] itemSprites = new SpriteRenderer[numItemSlots];
-	public GameObject[] items = new GameObject[numItemSlots];
+	public AttackUpItem[] items = new AttackUpItem[numItemSlots];
     private int currentItemIndex = 0;
 
 	// Add an item to the player's inventory if it is not full
 	public void AddItem(GameObject itemToAdd)
     {
-        for (int i = 0; i < items.Length; i++)
+		for (int i = 0; i < numItemSlots; i++)
         {
-            if (items[i] == null)
+			int cur = (currentItemIndex + i) % numItemSlots;
+			if (items[cur] == null)
             {
-                items[i]= itemToAdd;
-				itemSprites[i] = itemToAdd.GetComponent<SpriteRenderer> ();
-				itemSprites[i].enabled = true;
+                items[cur]= itemToAdd.GetComponent<AttackUpItem>();
+				itemSprites[cur] = itemToAdd.GetComponent<SpriteRenderer> ();
+				itemSprites[cur].enabled = true;
                 return;
             }
         }
@@ -42,11 +43,12 @@ public class Inventory : MonoBehaviour {
         {
             currentItemIndex++;
         }
+
 		if (currentItemIndex < 0)
 		{
 			currentItemIndex = numItemSlots-1;
 		}
-        if (currentItemIndex > items.Length-1)
+		else if (currentItemIndex >= numItemSlots)
         {
             currentItemIndex = 0;
         }
