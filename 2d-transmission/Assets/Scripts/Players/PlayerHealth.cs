@@ -9,7 +9,6 @@ public class PlayerHealth : MonoBehaviour {
 	public int currentHealth;
 	public int maxHealth = 100;
 	public Slider healthSlider;
-	public PlayerHealth otherPlayerHealth;
 
 	void Die () {
 //		print ("YOU DIED"); // TODO delete?
@@ -19,7 +18,6 @@ public class PlayerHealth : MonoBehaviour {
 	void Start () {
 		// Player starts at full health
 		currentHealth = startHealth;
-		currentHealth = startingHealth;
 
 		// Update health slider to reflect Player stats
 		healthSlider.maxValue = maxHealth;
@@ -37,8 +35,9 @@ public class PlayerHealth : MonoBehaviour {
 		return currentHealth <= 0;
 	}
 
-	public void SendHealth (int amount) {
+	public void SendHealth (PlayerHealth otherPlayerHealth, int amount) {
 		otherPlayerHealth.Heal (amount);
+		this.TakeDamage (amount);
 	}
 
 	public void TakeDamage (int amount) {
