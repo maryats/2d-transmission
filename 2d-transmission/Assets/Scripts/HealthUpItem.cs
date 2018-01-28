@@ -20,4 +20,7 @@ public class HealthUpItem : MonoBehaviour {
 		Destroy (o, destroySeconds);
 	}
 
+	void onPickup() {
+		Destroy (this.gameObject);
+	}
 }
